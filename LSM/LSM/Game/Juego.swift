@@ -12,6 +12,7 @@ class Juego{
     //------------------------------------------------------------------------------------------------------------------
     //                                              //INSTANCE VARIABLES
     var jugador = Jugador()
+    var boolNewGame : Bool!
     
     //------------------------------------------------------------------------------------------------------------------
     //                                              //STATIC PROPERTIES
@@ -20,18 +21,16 @@ class Juego{
     
     //------------------------------------------------------------------------------------------------------------------
     //                                              //STATIC INITS
-    static func initGame() -> Bool{
+    static func initGame(){
         let filePath = Juego.dataFilePath()
-        if FileManager.default.fileExists(atPath: filePath)
-        {
+        if FileManager.default.fileExists(atPath: filePath){
             Juego.arrGameData = NSMutableArray(contentsOfFile: filePath)!
-            return true;
         }
-        
-        Juego.arrGameData =  NSMutableArray()
-        Juego.arrGameData.add(Juego())
-        
-        return  false;
+        else{
+            Juego.arrGameData =  NSMutableArray()
+            Juego.arrGameData.add(Juego(boolNewGame_I: true))
+        }
+
     }
     
     
@@ -41,7 +40,7 @@ class Juego{
         return (Juego.arrGameData.object(at: 0) as! Juego)
     }
     
-    static func saveCurrentGame(){
+    static func saveCurrentGame(juego_I : Juego ){
         Juego.arrGameData.write(toFile: Juego.dataFilePath(), atomically: true)
     }
     
@@ -56,13 +55,15 @@ class Juego{
     //------------------------------------------------------------------------------------------------------------------
     //                                              //INSTANCE METHODS
     func boolUpdatePlayerName(_ strName_I: String){
-        self.jugador.strNombre = strName_I;
-        
+        self.jugador.strNombre = strName_I
+        self.boolNewGame = false
+        Juego.arrGameData =  NSMutableArray()
+        Juego.arrGameData.add(self)
     }
     
     //------------------------------------------------------------------------------------------------------------------
     //                                            //INITS
-    init(){
-
+    init(boolNewGame_I : Bool){
+        self.boolNewGame = boolNewGame_I
     }
 };

@@ -13,9 +13,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var tfNombre: UITextField!
     @IBOutlet weak var btGuardar: UIButton!
     
+    var game: Juego!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        Juego.initGame()
+        game = Juego.getCurrentGame()
+        
+        if (!game.boolNewGame){
+            tfNombre.text = game.jugador.strNombre
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,6 +34,8 @@ class ViewController: UIViewController {
     
 
     @IBAction func btGuardar(_ sender: UIButton) {
+        game.boolUpdatePlayerName(tfNombre.text!)
+        
     }
     
 }
