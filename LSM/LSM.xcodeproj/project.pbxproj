@@ -14,6 +14,11 @@
 		369DF95E1F9D512500039A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369DF95C1F9D512500039A7D /* LaunchScreen.storyboard */; };
 		369DF9691F9D512500039A7D /* LSMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DF9681F9D512500039A7D /* LSMTests.swift */; };
 		369DF9741F9D512500039A7D /* LSMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DF9731F9D512500039A7D /* LSMUITests.swift */; };
+		369DF9831F9D518000039A7D /* Jugador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DF9821F9D518000039A7D /* Jugador.swift */; };
+		369DF9851F9D518B00039A7D /* Juego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DF9841F9D518B00039A7D /* Juego.swift */; };
+		369DF9871F9D519500039A7D /* Nivel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DF9861F9D519500039A7D /* Nivel.swift */; };
+		369DF9891F9D519F00039A7D /* Ejercicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DF9881F9D519F00039A7D /* Ejercicio.swift */; };
+		369DF98B1F9D51A900039A7D /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DF98A1F9D51A900039A7D /* Tutorial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		369DF96F1F9D512500039A7D /* LSMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		369DF9731F9D512500039A7D /* LSMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSMUITests.swift; sourceTree = "<group>"; };
 		369DF9751F9D512500039A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		369DF9821F9D518000039A7D /* Jugador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jugador.swift; sourceTree = "<group>"; };
+		369DF9841F9D518B00039A7D /* Juego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Juego.swift; sourceTree = "<group>"; };
+		369DF9861F9D519500039A7D /* Nivel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nivel.swift; sourceTree = "<group>"; };
+		369DF9881F9D519F00039A7D /* Ejercicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio.swift; sourceTree = "<group>"; };
+		369DF98A1F9D51A900039A7D /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		369DF9521F9D512500039A7D /* LSM */ = {
 			isa = PBXGroup;
 			children = (
+				369DF9811F9D515E00039A7D /* Game */,
 				369DF9531F9D512500039A7D /* AppDelegate.swift */,
 				369DF9551F9D512500039A7D /* ViewController.swift */,
 				369DF9571F9D512500039A7D /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				369DF9751F9D512500039A7D /* Info.plist */,
 			);
 			path = LSMUITests;
+			sourceTree = "<group>";
+		};
+		369DF9811F9D515E00039A7D /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				369DF9821F9D518000039A7D /* Jugador.swift */,
+				369DF9841F9D518B00039A7D /* Juego.swift */,
+				369DF9861F9D519500039A7D /* Nivel.swift */,
+				369DF9881F9D519F00039A7D /* Ejercicio.swift */,
+				369DF98A1F9D51A900039A7D /* Tutorial.swift */,
+			);
+			path = Game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369DF9851F9D518B00039A7D /* Juego.swift in Sources */,
+				369DF9891F9D519F00039A7D /* Ejercicio.swift in Sources */,
+				369DF9831F9D518000039A7D /* Jugador.swift in Sources */,
 				369DF9561F9D512500039A7D /* ViewController.swift in Sources */,
+				369DF9871F9D519500039A7D /* Nivel.swift in Sources */,
+				369DF98B1F9D51A900039A7D /* Tutorial.swift in Sources */,
 				369DF9541F9D512500039A7D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
