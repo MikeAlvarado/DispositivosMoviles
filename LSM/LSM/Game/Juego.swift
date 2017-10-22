@@ -25,10 +25,11 @@ class Juego{
         if FileManager.default.fileExists(atPath: filePath)
         {
             Juego.arrGameData = NSMutableArray(contentsOfFile: filePath)!
-            return  true;
+            return true;
         }
         
-        Juego.arrGameData =  NSMutableArray(object: Juego())
+        Juego.arrGameData =  NSMutableArray()
+        Juego.arrGameData.add(Juego())
         
         return  false;
     }
@@ -36,8 +37,12 @@ class Juego{
     
     //------------------------------------------------------------------------------------------------------------------
     //                                              //STATIC METHODS
-    static func getCurrentJuego() -> Juego{
+    static func getCurrentGame() -> Juego{
         return (Juego.arrGameData.object(at: 0) as! Juego)
+    }
+    
+    static func saveCurrentGame(){
+        Juego.arrGameData.write(toFile: Juego.dataFilePath(), atomically: true)
     }
     
     static func dataFilePath() -> String
@@ -51,6 +56,7 @@ class Juego{
     //------------------------------------------------------------------------------------------------------------------
     //                                              //INSTANCE METHODS
     func boolUpdatePlayerName(_ strName_I: String){
+        self.jugador.strNombre = strName_I;
         
     }
     
