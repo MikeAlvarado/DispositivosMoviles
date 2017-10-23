@@ -22,6 +22,7 @@
 		36C5A9431F9D753F00AF4CC7 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C5A9421F9D753F00AF4CC7 /* GameController.swift */; };
 		FD72107C1F9D6EAC00236984 /* ViewControllerNiveles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72107B1F9D6EAC00236984 /* ViewControllerNiveles.swift */; };
 		FD72107E1F9D7AF400236984 /* ViewControllerCambiaNombre.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72107D1F9D7AF400236984 /* ViewControllerCambiaNombre.swift */; };
+		FD7210801F9D823A00236984 /* ViewControllerTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72107F1F9D823A00236984 /* ViewControllerTutorial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		36C5A9421F9D753F00AF4CC7 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		FD72107B1F9D6EAC00236984 /* ViewControllerNiveles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerNiveles.swift; sourceTree = "<group>"; };
 		FD72107D1F9D7AF400236984 /* ViewControllerCambiaNombre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCambiaNombre.swift; sourceTree = "<group>"; };
+		FD72107F1F9D823A00236984 /* ViewControllerTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				369DF9531F9D512500039A7D /* AppDelegate.swift */,
 				369DF9551F9D512500039A7D /* ViewController.swift */,
 				369DF9571F9D512500039A7D /* Main.storyboard */,
+				FD72107F1F9D823A00236984 /* ViewControllerTutorial.swift */,
 				FD72107D1F9D7AF400236984 /* ViewControllerCambiaNombre.swift */,
 				FD72107B1F9D6EAC00236984 /* ViewControllerNiveles.swift */,
 				369DF95A1F9D512500039A7D /* Assets.xcassets */,
@@ -294,6 +297,7 @@
 				36C5A93D1F9D748300AF4CC7 /* Nivel.swift in Sources */,
 				369DF9561F9D512500039A7D /* ViewController.swift in Sources */,
 				36C5A93F1F9D748300AF4CC7 /* Juego.swift in Sources */,
+				FD7210801F9D823A00236984 /* ViewControllerTutorial.swift in Sources */,
 				369DF9541F9D512500039A7D /* AppDelegate.swift in Sources */,
 				36C5A9431F9D753F00AF4CC7 /* GameController.swift in Sources */,
 				36C5A9411F9D748300AF4CC7 /* Jugador.swift in Sources */,

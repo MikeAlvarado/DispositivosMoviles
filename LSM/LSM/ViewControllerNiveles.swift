@@ -16,6 +16,7 @@ class ViewControllerNiveles: UIViewController {
     @IBOutlet weak var btSiguiente: UIButton!
     @IBOutlet weak var btAjustes: UIButton!
     
+    @IBOutlet weak var btTutorial: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         
