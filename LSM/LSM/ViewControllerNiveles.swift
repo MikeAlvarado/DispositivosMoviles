@@ -2,8 +2,8 @@
 //  ViewControllerNiveles.swift
 //  LSM
 //
-//  Created by Orange Investments on 10/22/17.
-//  Copyright © 2017 Jorge Mendez. All rights reserved.
+//  Created by Jorge Mendez, Fernando Pompa, and Miguel Alvarado on 10/22/17.
+//  Copyright © 2017 ITESM. All rights reserved.
 //
 
 import UIKit
