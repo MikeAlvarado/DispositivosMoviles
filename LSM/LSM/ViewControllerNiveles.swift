@@ -14,8 +14,8 @@ class ViewControllerNiveles: UIViewController {
     @IBOutlet weak var lbPuntos: UILabel!
     @IBOutlet weak var btSiguiente: UIButton!
     @IBOutlet weak var btAjustes: UIButton!
-    
     @IBOutlet weak var btTutorial: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -46,6 +46,8 @@ class ViewControllerNiveles: UIViewController {
         
     }
     
+    @IBAction func btTutorial(_ sender: UIButton) {
+    }
     override func unwind(for unwindSegue: UIStoryboardSegue, towardsViewController subsequentVC: UIViewController) {
         loadData()
     }
