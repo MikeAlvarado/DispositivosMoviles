@@ -8,6 +8,7 @@ provides-member:
 provides-dynamic-lookup:
 - "btAjustes"
 - "btSiguiente"
+- "btTutorial"
 - "didReceiveMemoryWarning"
 - "lbNivel"
 - "lbPuntos"
@@ -15,13 +16,14 @@ provides-dynamic-lookup:
 - "unwind"
 - "viewDidLoad"
 depends-top-level:
-- !private "!"
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
+- "CastingPrecedence"
 - !private "GameController"
 - !private "StringLiteralType"
 - "UIButton"
 - "UILabel"
+- !private "UIStoryboard"
 - "UIStoryboardSegue"
 - "UIViewController"
 - !private "ViewController"
@@ -31,9 +33,10 @@ depends-member:
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["s7CVarArgP", "GameController"]
-- !private ["s7CVarArgP", "ViewController"]
+- !private ["s7CVarArgP", "UIStoryboard"]
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
 - !private ["s7CVarArgP", "lbNivel"]
 - !private ["s7CVarArgP", "lbPuntos"]
 - !private ["s7CVarArgP", "lblNombre"]
@@ -46,9 +49,10 @@ depends-member:
 - !private ["s10CollectionP", "init"]
 - !private ["s10ComparableP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "GameController"]
-- !private ["s28CustomDebugStringConvertibleP", "ViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
 - !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "lbNivel"]
 - !private ["s28CustomDebugStringConvertibleP", "lbPuntos"]
 - !private ["s28CustomDebugStringConvertibleP", "lblNombre"]
@@ -63,10 +67,11 @@ depends-member:
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "GameController"]
-- !private ["s23CustomStringConvertibleP", "ViewController"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
 - !private ["s23CustomStringConvertibleP", "lbNivel"]
 - !private ["s23CustomStringConvertibleP", "lbPuntos"]
 - !private ["s23CustomStringConvertibleP", "lblNombre"]
@@ -81,10 +86,11 @@ depends-member:
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "init"]
 - !private ["s9EquatableP", "GameController"]
-- !private ["s9EquatableP", "ViewController"]
+- !private ["s9EquatableP", "UIStoryboard"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "didReceiveMemoryWarning"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instantiateViewController"]
 - !private ["s9EquatableP", "lbNivel"]
 - !private ["s9EquatableP", "lbPuntos"]
 - !private ["s9EquatableP", "lblNombre"]
@@ -101,10 +107,11 @@ depends-member:
 - !private ["3LSM14GameControllerC", "initGame"]
 - !private ["3LSM14GameControllerC", "juego"]
 - !private ["s8HashableP", "GameController"]
-- !private ["s8HashableP", "ViewController"]
+- !private ["s8HashableP", "UIStoryboard"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "didReceiveMemoryWarning"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instantiateViewController"]
 - !private ["s8HashableP", "lbNivel"]
 - !private ["s8HashableP", "lbPuntos"]
 - !private ["s8HashableP", "lblNombre"]
@@ -122,7 +129,7 @@ depends-member:
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", "GameController"]
-- !private ["So8NSCodingP", "ViewController"]
+- !private ["So8NSCodingP", "UIStoryboard"]
 - !private ["So8NSCodingP", "didReceiveMemoryWarning"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "lbNivel"]
@@ -136,7 +143,7 @@ depends-member:
 - ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "GameController"]
-- !private ["So26NSExtensionRequestHandlingP", "ViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "UIStoryboard"]
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "lbNivel"]
@@ -153,13 +160,16 @@ depends-member:
 - !private ["So8NSObjectC", "GameController"]
 - ["So8NSObjectC", "UIButton"]
 - ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "UIStoryboard"]
 - ["So8NSObjectC", "UIStoryboardSegue"]
 - ["So8NSObjectC", "UIViewController"]
 - !private ["So8NSObjectC", "ViewController"]
 - ["So8NSObjectC", "btAjustes"]
 - ["So8NSObjectC", "btSiguiente"]
+- ["So8NSObjectC", "btTutorial"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
 - ["So8NSObjectC", "lbNivel"]
 - ["So8NSObjectC", "lbPuntos"]
 - ["So8NSObjectC", "lblNombre"]
@@ -170,9 +180,10 @@ depends-member:
 - ["So8NSObjectC", "unwind"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So16NSObjectProtocolP", "GameController"]
-- !private ["So16NSObjectProtocolP", "ViewController"]
+- !private ["So16NSObjectProtocolP", "UIStoryboard"]
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
 - !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instantiateViewController"]
 - !private ["So16NSObjectProtocolP", "lbNivel"]
 - !private ["So16NSObjectProtocolP", "lbPuntos"]
 - !private ["So16NSObjectProtocolP", "lblNombre"]
@@ -193,7 +204,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So12UIAppearanceP", "text"]
 - !private ["So21UIAppearanceContainerP", "GameController"]
-- !private ["So21UIAppearanceContainerP", "ViewController"]
+- !private ["So21UIAppearanceContainerP", "UIStoryboard"]
 - !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "lbNivel"]
@@ -206,7 +217,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So18UIContentContainerP", "GameController"]
-- !private ["So18UIContentContainerP", "ViewController"]
+- !private ["So18UIContentContainerP", "UIStoryboard"]
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "lbNivel"]
@@ -221,7 +232,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "text"]
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So18UIFocusEnvironmentP", "GameController"]
-- !private ["So18UIFocusEnvironmentP", "ViewController"]
+- !private ["So18UIFocusEnvironmentP", "UIStoryboard"]
 - !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "lbNivel"]
@@ -237,7 +248,7 @@ depends-member:
 - !private ["So7UILabelC", "text"]
 - !private ["So22UINavigationControllerC", "pushViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "GameController"]
-- !private ["So30UIPasteConfigurationSupportingP", "ViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIStoryboard"]
 - !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "lbNivel"]
@@ -252,11 +263,13 @@ depends-member:
 - !private ["So11UIResponderC", "GameController"]
 - ["So11UIResponderC", "UIButton"]
 - ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "UIStoryboard"]
 - ["So11UIResponderC", "UIStoryboardSegue"]
 - ["So11UIResponderC", "UIViewController"]
 - !private ["So11UIResponderC", "ViewController"]
 - ["So11UIResponderC", "btAjustes"]
 - ["So11UIResponderC", "btSiguiente"]
+- ["So11UIResponderC", "btTutorial"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "lbNivel"]
@@ -269,7 +282,7 @@ depends-member:
 - ["So11UIResponderC", "unwind"]
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "GameController"]
-- !private ["So30UIResponderStandardEditActionsP", "ViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIStoryboard"]
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "lbNivel"]
@@ -282,7 +295,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So16UIStateRestoringP", "GameController"]
-- !private ["So16UIStateRestoringP", "ViewController"]
+- !private ["So16UIStateRestoringP", "UIStoryboard"]
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "lbNivel"]
@@ -293,8 +306,10 @@ depends-member:
 - !private ["So16UIStateRestoringP", "pushViewController"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", ""]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
 - !private ["So18UITraitEnvironmentP", "GameController"]
-- !private ["So18UITraitEnvironmentP", "ViewController"]
+- !private ["So18UITraitEnvironmentP", "UIStoryboard"]
 - !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "lbNivel"]
@@ -310,11 +325,13 @@ depends-member:
 - !private ["So16UIViewControllerC", "GameController"]
 - ["So16UIViewControllerC", "UIButton"]
 - ["So16UIViewControllerC", "UILabel"]
+- !private ["So16UIViewControllerC", "UIStoryboard"]
 - ["So16UIViewControllerC", "UIStoryboardSegue"]
 - ["So16UIViewControllerC", "UIViewController"]
 - !private ["So16UIViewControllerC", "ViewController"]
 - ["So16UIViewControllerC", "btAjustes"]
 - ["So16UIViewControllerC", "btSiguiente"]
+- ["So16UIViewControllerC", "btTutorial"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "lbNivel"]
@@ -326,15 +343,16 @@ depends-member:
 - ["So16UIViewControllerC", "unwind"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", ""]
-- !private ["3LSM14ViewControllerC", "init"]
 - !private ["3LSM21ViewControllerNivelesC", "GameController"]
 - ["3LSM21ViewControllerNivelesC", "UIButton"]
 - ["3LSM21ViewControllerNivelesC", "UILabel"]
+- !private ["3LSM21ViewControllerNivelesC", "UIStoryboard"]
 - ["3LSM21ViewControllerNivelesC", "UIStoryboardSegue"]
 - ["3LSM21ViewControllerNivelesC", "UIViewController"]
 - !private ["3LSM21ViewControllerNivelesC", "ViewController"]
 - ["3LSM21ViewControllerNivelesC", "btAjustes"]
 - ["3LSM21ViewControllerNivelesC", "btSiguiente"]
+- ["3LSM21ViewControllerNivelesC", "btTutorial"]
 - ["3LSM21ViewControllerNivelesC", "deinit"]
 - ["3LSM21ViewControllerNivelesC", "didReceiveMemoryWarning"]
 - ["3LSM21ViewControllerNivelesC", "init"]
@@ -357,9 +375,10 @@ depends-member:
 - !private ["s10_IndexableP", "init"]
 - !private ["s14_IndexableBaseP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GameController"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "ViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "lbNivel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "lbPuntos"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "lblNombre"]
@@ -428,10 +447,10 @@ depends-nominal:
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
 - "So18UITraitEnvironmentP"
 - !private "So6UIViewC"
 - "So16UIViewControllerC"
-- !private "3LSM14ViewControllerC"
 - "3LSM21ViewControllerNivelesC"
 - !private "s23_BidirectionalIndexableP"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
@@ -463,4 +482,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "cd0573f6cfe7064362ecbef5c38a8d71"
+interface-hash: "14ae3ef344998bc2621ccdc7c9a7cddc"

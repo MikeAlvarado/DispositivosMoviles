@@ -23,8 +23,10 @@ class ViewController: UIViewController {
         gradientLayer.locations = [ 0.0, 1.0]
         gradientLayer.frame = self.view.bounds
         
+        title = "Bienvenido"
         self.view.layer.insertSublayer(gradientLayer, at: 0)
        
+        navigationController?.navigationItem.setHidesBackButton(true, animated: true)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -32,11 +34,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     @IBAction func btGuardar(_ sender: UIButton) {
         GameController.boolUpdatePlayerName(tfNombre.text!)
-        
+        navigationController?.popViewController(animated: true)
     }
     
     
