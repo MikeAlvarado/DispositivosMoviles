@@ -4,7 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -47,7 +47,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btGuardar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dmu-b7-W7i"/>
-                                    <segue destination="Aw7-rh-8lJ" kind="presentation" id="L0z-hX-NfU"/>
+                                    <segue destination="Aw7-rh-8lJ" kind="show" identifier="toGame" id="L0z-hX-NfU"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -17,12 +17,14 @@ depends-top-level:
 - "AssignmentPrecedence"
 - !private "CAGradientLayer"
 - !private "GameController"
+- !private "StringLiteralType"
 - "UIButton"
 - !private "UIColor"
 - "UITextField"
 - "UIViewController"
 - "ViewController"
 depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CAGradientLayerC", "colors"]
 - !private ["So15CAGradientLayerC", "frame"]
@@ -53,11 +55,14 @@ depends-member:
 - !private ["s7CVarArgP", "insertSublayer"]
 - !private ["s7CVarArgP", "layer"]
 - !private ["s7CVarArgP", "locations"]
+- !private ["s7CVarArgP", "performSegue"]
 - !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "tfNombre"]
 - !private ["s7CVarArgP", "view"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "CAGradientLayer"]
 - !private ["s28CustomDebugStringConvertibleP", "GameController"]
 - !private ["s28CustomDebugStringConvertibleP", "UIColor"]
@@ -70,13 +75,16 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "insertSublayer"]
 - !private ["s28CustomDebugStringConvertibleP", "layer"]
 - !private ["s28CustomDebugStringConvertibleP", "locations"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "tfNombre"]
 - !private ["s28CustomDebugStringConvertibleP", "view"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "CAGradientLayer"]
 - !private ["s23CustomStringConvertibleP", "GameController"]
 - !private ["s23CustomStringConvertibleP", "UIColor"]
@@ -90,13 +98,16 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "insertSublayer"]
 - !private ["s23CustomStringConvertibleP", "layer"]
 - !private ["s23CustomStringConvertibleP", "locations"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
 - !private ["s23CustomStringConvertibleP", "text"]
 - !private ["s23CustomStringConvertibleP", "tfNombre"]
 - !private ["s23CustomStringConvertibleP", "view"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
 - !private ["s9EquatableP", "CAGradientLayer"]
 - !private ["s9EquatableP", "GameController"]
 - !private ["s9EquatableP", "UIColor"]
@@ -110,12 +121,16 @@ depends-member:
 - !private ["s9EquatableP", "insertSublayer"]
 - !private ["s9EquatableP", "layer"]
 - !private ["s9EquatableP", "locations"]
+- !private ["s9EquatableP", "performSegue"]
 - !private ["s9EquatableP", "text"]
 - !private ["s9EquatableP", "tfNombre"]
 - !private ["s9EquatableP", "view"]
 - !private ["s9EquatableP", "viewDidLoad"]
 - ["s9EquatableP", ""]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["3LSM14GameControllerC", "boolUpdatePlayerName"]
 - !private ["3LSM14GameControllerC", "initGame"]
 - !private ["3LSM14GameControllerC", "juego"]
@@ -132,15 +147,16 @@ depends-member:
 - !private ["s8HashableP", "insertSublayer"]
 - !private ["s8HashableP", "layer"]
 - !private ["s8HashableP", "locations"]
+- !private ["s8HashableP", "performSegue"]
 - !private ["s8HashableP", "text"]
 - !private ["s8HashableP", "tfNombre"]
 - !private ["s8HashableP", "view"]
 - !private ["s8HashableP", "viewDidLoad"]
 - ["s8HashableP", ""]
 - !private ["3LSM5JuegoC", "boolNewGame"]
-- !private ["3LSM5JuegoC", "jugador"]
-- !private ["3LSM7JugadorC", "strNombre"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", "CAGradientLayer"]
 - !private ["So8NSCodingP", "GameController"]
 - !private ["So8NSCodingP", "UIColor"]
@@ -153,6 +169,7 @@ depends-member:
 - !private ["So8NSCodingP", "insertSublayer"]
 - !private ["So8NSCodingP", "layer"]
 - !private ["So8NSCodingP", "locations"]
+- !private ["So8NSCodingP", "performSegue"]
 - !private ["So8NSCodingP", "text"]
 - !private ["So8NSCodingP", "tfNombre"]
 - !private ["So8NSCodingP", "view"]
@@ -165,6 +182,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "UIColor"]
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
 - !private ["So26NSExtensionRequestHandlingP", "tfNombre"]
 - !private ["So26NSExtensionRequestHandlingP", "view"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
@@ -173,6 +191,7 @@ depends-member:
 - !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderWritingP", "cgColor"]
 - !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
 - !private ["So8NSObjectC", "CAGradientLayer"]
 - !private ["So8NSObjectC", "GameController"]
 - ["So8NSObjectC", "UIButton"]
@@ -188,6 +207,7 @@ depends-member:
 - !private ["So8NSObjectC", "insertSublayer"]
 - !private ["So8NSObjectC", "layer"]
 - !private ["So8NSObjectC", "locations"]
+- !private ["So8NSObjectC", "performSegue"]
 - !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "tfNombre"]
 - !private ["So8NSObjectC", "view"]
@@ -204,6 +224,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "insertSublayer"]
 - !private ["So16NSObjectProtocolP", "layer"]
 - !private ["So16NSObjectProtocolP", "locations"]
+- !private ["So16NSObjectProtocolP", "performSegue"]
 - !private ["So16NSObjectProtocolP", "text"]
 - !private ["So16NSObjectProtocolP", "tfNombre"]
 - !private ["So16NSObjectProtocolP", "view"]
@@ -215,6 +236,13 @@ depends-member:
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "insertSublayer"]
 - !private ["So14NSSecureCodingP", "locations"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "bounds"]
 - !private ["So29UIAccessibilityIdentificationP", "layer"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
@@ -228,6 +256,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
 - !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "tfNombre"]
 - !private ["So21UIAppearanceContainerP", "view"]
@@ -240,6 +269,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "UIColor"]
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
 - !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "performSegue"]
 - !private ["So18UIContentContainerP", "tfNombre"]
 - !private ["So18UIContentContainerP", "view"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
@@ -259,6 +289,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
 - !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "tfNombre"]
 - !private ["So18UIFocusEnvironmentP", "view"]
@@ -275,6 +306,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "tfNombre"]
 - !private ["So30UIPasteConfigurationSupportingP", "view"]
@@ -290,6 +322,7 @@ depends-member:
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "layer"]
+- !private ["So11UIResponderC", "performSegue"]
 - !private ["So11UIResponderC", "text"]
 - ["So11UIResponderC", "tfNombre"]
 - !private ["So11UIResponderC", "view"]
@@ -301,6 +334,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "tfNombre"]
 - !private ["So30UIResponderStandardEditActionsP", "view"]
@@ -311,6 +345,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "UIColor"]
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
 - !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "performSegue"]
 - !private ["So16UIStateRestoringP", "tfNombre"]
 - !private ["So16UIStateRestoringP", "view"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
@@ -328,6 +363,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
 - !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "tfNombre"]
 - !private ["So18UITraitEnvironmentP", "view"]
@@ -344,6 +380,7 @@ depends-member:
 - ["So16UIViewControllerC", "btGuardar"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "performSegue"]
 - ["So16UIViewControllerC", "tfNombre"]
 - !private ["So16UIViewControllerC", "view"]
 - ["So16UIViewControllerC", "viewDidLoad"]
@@ -357,15 +394,25 @@ depends-member:
 - ["3LSM14ViewControllerC", "deinit"]
 - ["3LSM14ViewControllerC", "didReceiveMemoryWarning"]
 - ["3LSM14ViewControllerC", "init"]
+- !private ["3LSM14ViewControllerC", "performSegue"]
 - ["3LSM14ViewControllerC", "tfNombre"]
 - !private ["3LSM14ViewControllerC", "view"]
 - ["3LSM14ViewControllerC", "viewDidLoad"]
+- !private ["s23_BidirectionalIndexableP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
 - !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CAGradientLayer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GameController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
@@ -378,19 +425,26 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "insertSublayer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "locations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "tfNombre"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- !private "s23BidirectionalCollectionP"
 - !private "Sb"
 - !private "So15CAGradientLayerC"
 - !private "So7CALayerC"
 - !private "So15CALayerDelegateP"
 - !private "So13CAMediaTimingP"
 - "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
@@ -399,19 +453,30 @@ depends-nominal:
 - !private "s9EncodableP"
 - "s9EquatableP"
 - !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "3LSM14GameControllerC"
 - "s8HashableP"
 - !private "3LSM5JuegoC"
-- !private "3LSM7JugadorC"
 - !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
 - !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -438,11 +503,22 @@ depends-nominal:
 - !private "So6UIViewC"
 - "So16UIViewControllerC"
 - "3LSM14ViewControllerC"
+- !private "s23_BidirectionalIndexableP"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"

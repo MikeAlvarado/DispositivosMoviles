@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         GameController.initGame()
         
         if (!GameController.juego.boolNewGame){
-            tfNombre.text = GameController.juego.jugador.strNombre
+            performSegue(withIdentifier: "toGame", sender: nil)
         }
     }
 
@@ -43,6 +43,7 @@ class ViewController: UIViewController {
         GameController.boolUpdatePlayerName(tfNombre.text!)
         
     }
+    
     
 }
 

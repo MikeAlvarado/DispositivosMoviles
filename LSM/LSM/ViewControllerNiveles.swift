@@ -21,6 +21,8 @@ class ViewControllerNiveles: UIViewController {
         
         lbNivel.text = "Nivel\nAbecedario"
         // Do any additional setup after loading the view.
+        lblNombre.text = GameController.juego.jugador.strNombre
+        lbPuntos.text = "\(GameController.juego.jugador.intXP) xp"
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,6 +40,7 @@ class ViewControllerNiveles: UIViewController {
     {
         
     }
+    
     /*
     // MARK: - Navigation
 
