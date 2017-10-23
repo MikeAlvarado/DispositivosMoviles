@@ -1,7 +1,13 @@
 version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
-options: "391a3b06db5a376ddd7c7fdcc6770274"
-build_time: [1508719256, 928705000]
+options: "4a9c1abae502c32f4862d1834f78d917"
+build_time: [1508721230, 692037000]
 inputs:
-  "/Users/jorgemendez/Documents/LSM/LSM/LSM/ViewController.swift": !dirty [1508719157, 0]
-  "/Users/jorgemendez/Documents/LSM/LSM/LSM/AppDelegate.swift": [1508719157, 0]
-  "/Users/jorgemendez/Documents/LSM/LSM/LSM/ViewControllerNiveles.swift": [1508719157, 0]
+  "/Users/jorgemendez/Documents/DispositivosMoviles/LSM/LSM/Game/Nivel.swift": [1508719851, 0]
+  "/Users/jorgemendez/Documents/DispositivosMoviles/LSM/LSM/ViewController.swift": [1508721123, 0]
+  "/Users/jorgemendez/Documents/DispositivosMoviles/LSM/LSM/Game/Juego.swift": [1508720581, 0]
+  "/Users/jorgemendez/Documents/DispositivosMoviles/LSM/LSM/AppDelegate.swift": [1508719851, 0]
+  "/Users/jorgemendez/Documents/DispositivosMoviles/LSM/LSM/Game/GameController.swift": [1508721226, 0]
+  "/Users/jorgemendez/Documents/DispositivosMoviles/LSM/LSM/Game/Jugador.swift": [1508719851, 0]
+  "/Users/jorgemendez/Documents/DispositivosMoviles/LSM/LSM/ViewControllerNiveles.swift": [1508719851, 0]
+  "/Users/jorgemendez/Documents/DispositivosMoviles/LSM/LSM/Game/Tutorial.swift": [1508719851, 0]
+  "/Users/jorgemendez/Documents/DispositivosMoviles/LSM/LSM/Game/Ejercicio.swift": [1508719851, 0]
