@@ -11,7 +11,6 @@ import UIKit
 class ViewControllerNiveles: UIViewController {
 
     @IBOutlet weak var lbNivel: UILabel!
-    @IBOutlet weak var lblNombre: UILabel!
     @IBOutlet weak var lbPuntos: UILabel!
     @IBOutlet weak var btSiguiente: UIButton!
     @IBOutlet weak var btAjustes: UIButton!
@@ -24,7 +23,6 @@ class ViewControllerNiveles: UIViewController {
         
         if (GameController.juego.boolNewGame){
             let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-            
             let nextViewController = storyBoard.instantiateViewController(withIdentifier: "name") as! ViewController
             self.navigationController?.pushViewController(nextViewController, animated: true)
         }
@@ -55,7 +53,7 @@ class ViewControllerNiveles: UIViewController {
     func loadData(){
         lbNivel.text = "Nivel\nAbecedario"
         // Do any additional setup after loading the view.
-        lblNombre.text = GameController.juego.jugador.strNombre
+        title = GameController.juego.jugador.strNombre
         lbPuntos.text = "\(GameController.juego.jugador.intXP!) xp"
     }
     
