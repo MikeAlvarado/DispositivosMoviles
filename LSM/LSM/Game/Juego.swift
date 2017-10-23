@@ -17,39 +17,22 @@ class Juego{
     //------------------------------------------------------------------------------------------------------------------
     //                                              //STATIC PROPERTIES
     
-    static var arrGameData = NSMutableArray()
     
     //------------------------------------------------------------------------------------------------------------------
     //                                              //STATIC INITS
     static func initGame(){
-        let filePath = Juego.dataFilePath()
-        if FileManager.default.fileExists(atPath: filePath){
-            Juego.arrGameData = NSMutableArray(contentsOfFile: filePath)!
-        }
-        else{
-            Juego.arrGameData =  NSMutableArray()
-            Juego.arrGameData.add(Juego(boolNewGame_I: true))
-        }
-
+       
     }
     
     
     //------------------------------------------------------------------------------------------------------------------
     //                                              //STATIC METHODS
-    static func getCurrentGame() -> Juego{
-        return (Juego.arrGameData.object(at: 0) as! Juego)
-    }
+    /*static func getCurrentGame() -> Juego{
+        return nil
+    }*/
     
-    static func saveCurrentGame(juego_I : Juego ){
-        Juego.arrGameData.write(toFile: Juego.dataFilePath(), atomically: true)
-    }
-    
-    static func dataFilePath() -> String
-    {
-        let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
-        let documentsDirectory = paths[0]
+    static func saveCurrentGame(){
 
-        return documentsDirectory.appending("/data.plist")
     }
     
     //------------------------------------------------------------------------------------------------------------------
@@ -57,8 +40,6 @@ class Juego{
     func boolUpdatePlayerName(_ strName_I: String){
         self.jugador.strNombre = strName_I
         self.boolNewGame = false
-        Juego.arrGameData =  NSMutableArray()
-        Juego.arrGameData.add(self)
     }
     
     //------------------------------------------------------------------------------------------------------------------

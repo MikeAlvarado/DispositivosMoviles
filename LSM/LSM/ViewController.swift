@@ -33,7 +33,6 @@ class ViewController: UIViewController {
         if (!game.boolNewGame){
             tfNombre.text = game.jugador.strNombre
         }
-        
     }
 
     override func didReceiveMemoryWarning() {
