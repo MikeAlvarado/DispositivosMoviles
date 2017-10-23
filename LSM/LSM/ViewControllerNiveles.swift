@@ -19,10 +19,14 @@ class ViewControllerNiveles: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        lbNivel.text = "Nivel\nAbecedario"
-        // Do any additional setup after loading the view.
-        lblNombre.text = GameController.juego.jugador.strNombre
-        lbPuntos.text = "\(GameController.juego.jugador.intXP) xp"
+        GameController.initGame()
+        
+        if (!GameController.juego.boolNewGame){
+            let newViewController = ViewController()
+        self.navigationController?.pushViewController(newViewController, animated: true)
+        }
+        
+        loadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,6 +43,17 @@ class ViewControllerNiveles: UIViewController {
     @IBAction func btSiguiente(_ sender: UIButton)
     {
         
+    }
+    
+    override func unwind(for unwindSegue: UIStoryboardSegue, towardsViewController subsequentVC: UIViewController) {
+        loadData()
+    }
+    
+    func loadData(){
+        lbNivel.text = "Nivel\nAbecedario"
+        // Do any additional setup after loading the view.
+        lblNombre.text = GameController.juego.jugador.strNombre
+        lbPuntos.text = "\(GameController.juego.jugador.intXP!) xp"
     }
     
     /*

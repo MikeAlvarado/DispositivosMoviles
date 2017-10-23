@@ -36,7 +36,8 @@ class ViewControllerCambiaNombre: UIViewController {
 
     @IBAction func btContinuar(_ sender: UIButton)
     {
-        
+        GameController.boolUpdatePlayerName(tfNombre.text!)
+            navigationController?.popViewController(animated: true)
     }
     /*
     // MARK: - Navigation

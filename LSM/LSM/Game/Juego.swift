@@ -25,7 +25,7 @@ class Juego{
     //                                              //INSTANCE METHODS
     func boolUpdatePlayerName(_ strName_I: String){
         self.jugador.strNombre = strName_I
-        self.boolNewGame = false
+        self.boolNewGame = true
     }
     
     //------------------------------------------------------------------------------------------------------------------

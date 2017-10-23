@@ -26,11 +26,6 @@ class ViewController: UIViewController {
         self.view.layer.insertSublayer(gradientLayer, at: 0)
        
         // Do any additional setup after loading the view, typically from a nib.
-        GameController.initGame()
-        
-        if (!GameController.juego.boolNewGame){
-            performSegue(withIdentifier: "toGame", sender: nil)
-        }
     }
 
     override func didReceiveMemoryWarning() {
