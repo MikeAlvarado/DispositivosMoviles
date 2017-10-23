@@ -1,5 +1,5 @@
 //
-//  ViewControllerNiveles.swift
+//  ViewControllerTutorial.swift
 //  LSM
 //
 //  Created by Orange Investments on 10/22/17.
@@ -8,22 +8,20 @@
 
 import UIKit
 
-class ViewControllerNiveles: UIViewController {
-
-    @IBOutlet weak var lbNivel: UILabel!
-    @IBOutlet weak var lblNombre: UILabel!
-    @IBOutlet weak var lbPuntos: UILabel!
-    @IBOutlet weak var btSiguiente: UIButton!
-    @IBOutlet weak var btAjustes: UIButton!
+class ViewControllerTutorial: UIViewController {
     
-    @IBOutlet weak var btTutorial: UIButton!
+    
+    @IBOutlet weak var lbTitulo: UILabel!
+    @IBOutlet weak var lbPuntos: UILabel!
+    @IBOutlet weak var lbNivel: UILabel!
+    @IBOutlet weak var uiImagen: UIImageView!
+    @IBOutlet weak var btSiguiente: UIButton!
+    @IBOutlet weak var btRegresa: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        lbNivel.text = "Nivel\nAbecedario"
+
         // Do any additional setup after loading the view.
-        lblNombre.text = GameController.juego.jugador.strNombre
-        lbPuntos.text = "\(GameController.juego.jugador.intXP) xp"
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,17 +30,14 @@ class ViewControllerNiveles: UIViewController {
     }
     
 
-    @IBAction func btAjustes(_ sender: UIButton)
+    @IBAction func btRegresa(_ sender: UIButton)
     {
         
     }
     
-    @IBAction func btSiguiente(_ sender: UIButton)
+    @IBAction func btSiguiente(_ sender: Any)
     {
         
-    }
-    
-    @IBAction func btTutorial(_ sender: UIButton) {
     }
     /*
     // MARK: - Navigation
