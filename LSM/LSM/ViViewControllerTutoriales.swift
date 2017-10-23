@@ -1,24 +1,18 @@
 //
-//  ViewControllerTutorial.swift
+//  ViViewControllerTutoriales.swift
 //  LSM
 //
-//  Created by Orange Investments on 10/22/17.
+//  Created by Jorge Mendez on 10/22/17.
 //  Copyright © 2017 Jorge Mendez. All rights reserved.
 //
 
 import UIKit
 
-class ViewControllerTutorial: UIViewController {
-    
-    
-   
-    
+class ViViewControllerTutoriales: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        title = "Tutorial"
-        
-
+        //title = "Tutorial"
         // Do any additional setup after loading the view.
     }
 
@@ -28,15 +22,6 @@ class ViewControllerTutorial: UIViewController {
     }
     
 
-    @IBAction func btRegresa(_ sender: UIButton)
-    {
-        
-    }
-    
-    @IBAction func btSiguiente(_ sender: Any)
-    {
-        
-    }
     /*
     // MARK: - Navigation
 

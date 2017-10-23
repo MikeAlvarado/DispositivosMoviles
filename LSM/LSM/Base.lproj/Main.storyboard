@@ -4,7 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -108,10 +108,10 @@
             </objects>
             <point key="canvasLocation" x="1412" y="1028"/>
         </scene>
-        <!--View Controller Tutorial-->
+        <!--Vi View Controller Tutoriales-->
         <scene sceneID="J21-5O-mca">
             <objects>
-                <viewController id="k0B-03-Qcv" customClass="ViewControllerTutorial" customModule="LSM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="k0B-03-Qcv" customClass="ViViewControllerTutoriales" customModule="LSM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IVQ-D5-0Uo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -157,7 +157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R4g-aE-HqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2229.375" y="1009.8591549295775"/>
+            <point key="canvasLocation" x="2164" y="1085"/>
         </scene>
         <!--View Controller Niveles-->
         <scene sceneID="en6-xU-6f1">
@@ -250,6 +250,7 @@
                         <outlet property="btSiguiente" destination="KYd-vU-0yq" id="8dx-AK-cV1"/>
                         <outlet property="btTutorial" destination="9wY-No-kSb" id="kXj-mf-8rq"/>
                         <outlet property="lbNivel" destination="Yyl-de-eeQ" id="dgP-4i-f5M"/>
+                        <outlet property="lbPuntos" destination="tMs-yb-t59" id="r02-aZ-k7V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vZq-Cl-RJR" userLabel="First Responder" sceneMemberID="firstResponder"/>
