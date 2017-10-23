@@ -14,6 +14,7 @@
 		369DF95E1F9D512500039A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369DF95C1F9D512500039A7D /* LaunchScreen.storyboard */; };
 		369DF9691F9D512500039A7D /* LSMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DF9681F9D512500039A7D /* LSMTests.swift */; };
 		369DF9741F9D512500039A7D /* LSMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DF9731F9D512500039A7D /* LSMUITests.swift */; };
+		FD72107C1F9D6EAC00236984 /* ViewControllerNiveles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72107B1F9D6EAC00236984 /* ViewControllerNiveles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		369DF96F1F9D512500039A7D /* LSMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		369DF9731F9D512500039A7D /* LSMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSMUITests.swift; sourceTree = "<group>"; };
 		369DF9751F9D512500039A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD72107B1F9D6EAC00236984 /* ViewControllerNiveles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerNiveles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				369DF9531F9D512500039A7D /* AppDelegate.swift */,
 				369DF9551F9D512500039A7D /* ViewController.swift */,
 				369DF9571F9D512500039A7D /* Main.storyboard */,
+				FD72107B1F9D6EAC00236984 /* ViewControllerNiveles.swift */,
 				369DF95A1F9D512500039A7D /* Assets.xcassets */,
 				369DF95C1F9D512500039A7D /* LaunchScreen.storyboard */,
 				369DF95F1F9D512500039A7D /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				369DF9561F9D512500039A7D /* ViewController.swift in Sources */,
 				369DF9541F9D512500039A7D /* AppDelegate.swift in Sources */,
+				FD72107C1F9D6EAC00236984 /* ViewControllerNiveles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
