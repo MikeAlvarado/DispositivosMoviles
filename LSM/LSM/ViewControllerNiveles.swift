@@ -48,17 +48,24 @@ class ViewControllerNiveles: UIViewController {
     
     @IBAction func btTutorial(_ sender: UIButton) {
     }
+    
+    @IBAction func setFavorite(_ sender: UIButton) {
+        sender.setImage(#imageLiteral(resourceName: "stra"), for: .normal)
+    }
     override func unwind(for unwindSegue: UIStoryboardSegue, towardsViewController subsequentVC: UIViewController) {
         loadData()
     }
     
     func loadData(){
-        lbNivel.text = "Nivel\nAbecedario"
+        title = "Abecedario"
         // Do any additional setup after loading the view.
-        title = GameController.juego.jugador.strNombre
+        lbNivel.text = GameController.juego.jugador.strNombre
         lbPuntos.text = "\(GameController.juego.jugador.intXP!) xp"
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        loadData()
+    }
     /*
     // MARK: - Navigation
 
