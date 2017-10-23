@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "391a3b06db5a376ddd7c7fdcc6770274"
+build_time: [1508719256, 928705000]
+inputs:
+  "/Users/jorgemendez/Documents/LSM/LSM/LSM/ViewController.swift": !dirty [1508719157, 0]
+  "/Users/jorgemendez/Documents/LSM/LSM/LSM/AppDelegate.swift": [1508719157, 0]
+  "/Users/jorgemendez/Documents/LSM/LSM/LSM/ViewControllerNiveles.swift": [1508719157, 0]
