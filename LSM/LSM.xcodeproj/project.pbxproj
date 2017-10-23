@@ -99,6 +99,7 @@
 		369DF9521F9D512500039A7D /* LSM */ = {
 			isa = PBXGroup;
 			children = (
+				369DF9811F9D515E00039A7D /* Game */,
 				369DF9531F9D512500039A7D /* AppDelegate.swift */,
 				369DF9551F9D512500039A7D /* ViewController.swift */,
 				369DF9571F9D512500039A7D /* Main.storyboard */,
@@ -126,6 +127,18 @@
 				369DF9751F9D512500039A7D /* Info.plist */,
 			);
 			path = LSMUITests;
+			sourceTree = "<group>";
+		};
+		369DF9811F9D515E00039A7D /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				369DF9821F9D518000039A7D /* Jugador.swift */,
+				369DF9841F9D518B00039A7D /* Juego.swift */,
+				369DF9861F9D519500039A7D /* Nivel.swift */,
+				369DF9881F9D519F00039A7D /* Ejercicio.swift */,
+				369DF98A1F9D51A900039A7D /* Tutorial.swift */,
+			);
+			path = Game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369DF9851F9D518B00039A7D /* Juego.swift in Sources */,
+				369DF9891F9D519F00039A7D /* Ejercicio.swift in Sources */,
+				369DF9831F9D518000039A7D /* Jugador.swift in Sources */,
 				369DF9561F9D512500039A7D /* ViewController.swift in Sources */,
+				369DF9871F9D519500039A7D /* Nivel.swift in Sources */,
+				369DF98B1F9D51A900039A7D /* Tutorial.swift in Sources */,
 				369DF9541F9D512500039A7D /* AppDelegate.swift in Sources */,
 				FD72107C1F9D6EAC00236984 /* ViewControllerNiveles.swift in Sources */,
 			);
