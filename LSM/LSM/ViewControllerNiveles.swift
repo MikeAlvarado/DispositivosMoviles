@@ -11,6 +11,10 @@ import UIKit
 class ViewControllerNiveles: UIViewController {
 
     @IBOutlet weak var lbNivel: UILabel!
+    @IBOutlet weak var lblNombre: UILabel!
+    @IBOutlet weak var lbPuntos: UILabel!
+    @IBOutlet weak var btSiguiente: UIButton!
+    @IBOutlet weak var btAjustes: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +29,15 @@ class ViewControllerNiveles: UIViewController {
     }
     
 
+    @IBAction func btAjustes(_ sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func btSiguiente(_ sender: UIButton)
+    {
+        
+    }
     /*
     // MARK: - Navigation
 
