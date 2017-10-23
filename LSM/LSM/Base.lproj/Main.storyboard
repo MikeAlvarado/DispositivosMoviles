@@ -207,7 +207,6 @@
                                 </state>
                                 <connections>
                                     <action selector="btTutorial:" destination="Aw7-rh-8lJ" eventType="touchUpInside" id="4tW-VB-B4k"/>
-                                    <segue destination="LFG-2V-xvY" kind="presentation" id="EkW-7n-G8L"/>
                                 </connections>
                             </button>
                         </subviews>
