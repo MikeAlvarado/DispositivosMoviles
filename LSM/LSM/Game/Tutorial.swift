@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-
+import Cloudinary
 class Tutorial{
     var strText : String!
     var isVideo : Bool!
@@ -16,11 +16,28 @@ class Tutorial{
     var urlResource : String!
     
     
-    init(strText_I : String, isVideo_I : Bool, imgImage_I : UIImage!, urlResource_I : String!) {
+    init(strText_I : String, isVideo_I : Bool, urlResource_I : String!) {
         strText  = strText_I
         isVideo = isVideo_I
-        imgImage = imgImage_I
         urlResource = urlResource_I
+    }
+    
+    func getComplteURL() -> String{
+        let config = CLDConfiguration(cloudName: "itesmlsm", apiKey: "885279298663878")
+        let cloudinary = CLDCloudinary(configuration: config)
+        
+        let url = cloudinary.createUrl().generate(urlResource)?.replacingOccurrences(of: "image", with:"video")
+        return url!
+        
+    }
+    
+    func getImage() -> UIImage{
+        let config = CLDConfiguration(cloudName: "itesmlsm", apiKey: "885279298663878")
+        let cloudinary = CLDCloudinary(configuration: config)
+        
+        let nurl = URL(string: cloudinary.createUrl().generate(urlResource)!)
+        let imageD = NSData(contentsOf: nurl!)
+        return UIImage(data: imageD! as Data)!
     }
     
 }

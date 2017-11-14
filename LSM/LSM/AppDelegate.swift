@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        setStoryboard()
         return true
     }
 
@@ -39,6 +40,61 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func setStoryboard() {
+        let storyboard = grabStoryboard()
+        setInitialScreen(storyboard)
+    }
+    
+    func grabStoryboard() -> UIStoryboard{
+        let screenHeigth = Int(UIScreen.main.bounds.height)
+        var storyboard : UIStoryboard
+        
+        // altura de los dispositivos
+        // iPhone SE -> 568
+        // iPhone 8 -> 667
+        // iPhone 8 Plus -> 736
+        // iPad 9.7 -> 1024
+        // iPad 10.5 -> 1112
+        // iPad 12.9 -> 1366
+        
+        switch (screenHeigth) {
+        case 480:
+            storyboard = UIStoryboard(name: "Main iPhone 4", bundle: nil)
+            break
+        case 568:
+            storyboard = UIStoryboard(name: "Main iPhone SE", bundle: nil)
+            break
+        case 667:
+            storyboard = UIStoryboard(name: "Main iPhone 8", bundle: nil)
+            break
+        case 736:
+            storyboard = UIStoryboard(name: "Main iPhone 8 Plus", bundle: nil)
+            break
+        case 1024:
+            storyboard = UIStoryboard(name: "Main iPad Pro 9", bundle: nil)
+            break
+        case 1112:
+            storyboard = UIStoryboard(name: "Main iPad Pro 10", bundle: nil)
+            break
+        case 1366:
+            storyboard = UIStoryboard(name: "Main iPad Pro 12", bundle: nil)
+            break
+        default:
+            storyboard = UIStoryboard(name: "Main", bundle: nil)
+            break
+        }
+        
+        return storyboard;
+    }
+    
+    func setInitialScreen(_ storyboard : UIStoryboard) {
+        var initViewController : UIViewController
+        initViewController = storyboard.instantiateViewController(withIdentifier: "First")
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = initViewController
+        window?.makeKeyAndVisible()
     }
 
 

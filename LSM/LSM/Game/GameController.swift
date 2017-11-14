@@ -12,7 +12,59 @@ class GameController{
     
     static var juego : Juego!
     static var data : NSMutableArray!
-    static var tutoABC : [Tutorial]!
+    static var tutos : [[Tutorial]]!
+    static var ejer : [[Ejercicio]]!
+    static var seccion  = [
+        "Abecedario",
+        "Animales",
+        "Colores",
+        "Comida",
+        "Cuerpo",
+        "Días de la semana",
+        "Frutas",
+        "Hogar",
+        "Lugares",
+        "Meses del año",
+        "Numeros",
+        "Personas",
+        "Preguntas",
+        "Preposiciones / Adjetivos / Sustantivos / Adverbios",
+        "Pronombres",
+        "Puestos profesiones / Oficios",
+        "Ropa",
+        "Saludos / Cortesias",
+        "Tiempo",
+        "Transporte",
+        "Verbos comunes",
+        "Verbos narrativos",
+        "Verduras"
+    ];
+    
+    static var idseccion  = [
+        "Abecedario",
+        "Animales",
+        "Colores",
+        "Comida",
+        "Cuerpo",
+        "DiasDeLaSemana",
+        "Frutas",
+        "Hogar",
+        "Lugares",
+        "MesesDelAno",
+        "Numeros",
+        "Personas",
+        "Preguntas",
+        "PreposicionesAdjetivosSustantivosAdverbios",
+        "Pronombres",
+        "PuestosProfesionesOficios",
+        "Ropa",
+        "SaludosCortesias",
+        "Tiempo",
+        "Transporte",
+        "VerbosComunes",
+        "VerbosNarrativos",
+        "Verduras"
+    ];
     
     //------------------------------------------------------------------------------------------------------------------
     //                                              //STATIC INITS
@@ -35,7 +87,7 @@ class GameController{
         if (GameController.data != nil) {
             let ns = (data.object(at: 0) as! NSMutableDictionary )
             juego = Juego(boolNewGame_I: ns["boolNewGame"] as! Bool)
-            juego.jugador = Jugador( ns["strNombre"] as! String, ns["intXP"] as! Int)
+            juego.jugador = Jugador( ns["strNombre"] as! String, ns["intXP"] as! Int, liked_I: ns["liked"] as! NSMutableArray)
         }
         else{
             juego = Juego(boolNewGame_I: true)
@@ -45,70 +97,95 @@ class GameController{
     }
     
     static func loadTutorialAbecedario(){
-        tutoABC = [Tutorial]()
-
-        tutoABC.append(Tutorial(strText_I: "A", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "i.JPG"), urlResource_I: nil))
-
-        tutoABC.append(Tutorial(strText_I: "B", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "b.JPG"), urlResource_I: nil))
+        var abc : NSMutableArray! = nil;
+        var path = Bundle.main.path(forResource: "Tutoriales", ofType: "plist")
+        var tutosTemp = NSMutableDictionary(contentsOfFile: path!)!
         
-        tutoABC.append(Tutorial(strText_I: "C", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "c"), urlResource_I: nil))
+        tutos = [[Tutorial]]()
+        for sec in idseccion{
+        abc = tutosTemp[sec] as! NSMutableArray;
+        var tutosToAdd = [Tutorial]()
+            for ele in abc{
+                let ns = ele as! NSMutableDictionary
+                tutosToAdd.append(Tutorial(
+                    strText_I: ns["text"] as! String,
+                    isVideo_I: ns["isVideo"] as! Bool,
+                    urlResource_I: ns["url"] as! String
+                ))
+            }
+            tutos.append(tutosToAdd)
+        }
         
-        tutoABC.append(Tutorial(strText_I: "D", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "d"), urlResource_I: nil))
+        abc  = nil;
+        path = Bundle.main.path(forResource: "Ejercicios", ofType: "plist")
+        tutosTemp = NSMutableDictionary(contentsOfFile: path!)!
+        ejer = [[Ejercicio]]()
+        for sec in idseccion{
+            abc = tutosTemp[sec] as! NSMutableArray;
+            var tutosToAdd = [Ejercicio]()
+            for ele in abc{
+                let ns = ele as! NSMutableDictionary
+                tutosToAdd.append(Ejercicio(
+                    respuesta_I: ns["respuesta"] as! Int,
+                    op1_I: ns["op1"] as! Int,
+                    op2_I: ns["op2"] as! Int,
+                    op3_I: ns["op3"] as! Int,
+                    op4_I: ns["op4"] as! Int,
+                    xp_I: ns["xp"] as! Int
+                ))
+            }
+            ejer.append(tutosToAdd)
+        }
         
-        tutoABC.append(Tutorial(strText_I: "E", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "e"), urlResource_I: nil))
-        
-        tutoABC.append(Tutorial(strText_I: "F", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "f"), urlResource_I: nil))
-        tutoABC.append(Tutorial(strText_I: "G", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "g"), urlResource_I: nil))
-        tutoABC.append(Tutorial(strText_I: "H", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "h"), urlResource_I: nil))
-        tutoABC.append(Tutorial(strText_I: "I", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "i"), urlResource_I: nil))
-        
-         tutoABC.append(Tutorial(strText_I: "J", isVideo_I: true, imgImage_I: nil, urlResource_I: "LSM_Abecedario/j"))
-        
-        tutoABC.append(Tutorial(strText_I: "K", isVideo_I: true, imgImage_I: nil, urlResource_I: "LSM_Abecedario/k"))
-        
-        tutoABC.append(Tutorial(strText_I: "L", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "l"), urlResource_I: nil))
-        
-        tutoABC.append(Tutorial(strText_I: "LL", isVideo_I: true, imgImage_I: nil, urlResource_I: "LSM_Abecedario/ll"))
-        
-        tutoABC.append(Tutorial(strText_I: "M", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "m"), urlResource_I: nil))
-        tutoABC.append(Tutorial(strText_I: "N", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "n"), urlResource_I: nil))
-        
-        tutoABC.append(Tutorial(strText_I: "Ñ", isVideo_I: true, imgImage_I: nil, urlResource_I: "LSM_Abecedario/nie"))
-        
-        tutoABC.append(Tutorial(strText_I: "O", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "o"), urlResource_I: nil))
-        tutoABC.append(Tutorial(strText_I: "P", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "p"), urlResource_I: nil))
-        
-         tutoABC.append(Tutorial(strText_I: "Q", isVideo_I: true, imgImage_I: nil, urlResource_I: "LSM_Abecedario/q"))
-        
-        tutoABC.append(Tutorial(strText_I: "R", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "r"), urlResource_I: nil))
-        
-        tutoABC.append(Tutorial(strText_I: "RR", isVideo_I: true, imgImage_I: nil, urlResource_I: "LSM_Abecedario/rr"))
-        
-        tutoABC.append(Tutorial(strText_I: "S", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "s"), urlResource_I: nil))
-        tutoABC.append(Tutorial(strText_I: "T", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "t"), urlResource_I: nil))
-        
-        tutoABC.append(Tutorial(strText_I: "U", isVideo_I: false, imgImage_I:#imageLiteral(resourceName: "u"), urlResource_I: nil))
-        tutoABC.append(Tutorial(strText_I: "V", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "v"), urlResource_I: nil))
-        tutoABC.append(Tutorial(strText_I: "W", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "w"), urlResource_I: nil))
-        
-         tutoABC.append(Tutorial(strText_I: "X", isVideo_I: true, imgImage_I: nil, urlResource_I: "LSM_Abecedario/x"))
-        
-        tutoABC.append(Tutorial(strText_I: "Y", isVideo_I: false, imgImage_I: #imageLiteral(resourceName: "y"), urlResource_I: nil))
-        
-        tutoABC.append(Tutorial(strText_I: "Z", isVideo_I: true, imgImage_I: nil, urlResource_I: "LSM_Abecedario/z"))
-        
-        
+        abc  = nil;
     }
     
     static func saveCurrentGame(){
         let dicc : NSMutableDictionary = ["boolNewGame" : juego.boolNewGame,
                                           "strNombre" : juego.jugador.strNombre,
-                                          "intXP" : juego.jugador.intXP]
+                                          "intXP" : juego.jugador.intXP,
+                                          "liked" : juego.jugador.liked]
         
         GameController.data = NSMutableArray()
         GameController.data.add(dicc)
         
         GameController.data.write(toFile: dataFilePath(), atomically: true)
+        
+        /*let dataTutos = NSMutableDictionary()
+        
+        for i in 0...tutos.count  - 1{
+            let arr = NSMutableArray()
+            for j in 0...tutos[i].count - 1 {
+                let dataTutosEle = NSMutableDictionary()
+                dataTutosEle["url"] = tutos[i][j].urlResource!
+                dataTutosEle["text"] = tutos[i][j].strText!
+                dataTutosEle["isVideo"] = tutos[i][j].isVideo!
+                arr[j] = dataTutosEle
+            }
+            
+            dataTutos[idseccion[i]] = arr
+        }
+        */
+        
+        let dataEjer = NSMutableDictionary()
+        
+        for i in 0...ejer.count  - 1{
+            let arr = NSMutableArray()
+            for j in 0...ejer[i].count - 1 {
+                let dataTutosEle = NSMutableDictionary()
+                dataTutosEle["respuesta"] = ejer[i][j].respuesta!
+                dataTutosEle["op1"] = ejer[i][j].op1!
+                dataTutosEle["op2"] = ejer[i][j].op2!
+                dataTutosEle["op3"] = ejer[i][j].op3!
+                dataTutosEle["op4"] = ejer[i][j].op4!
+                dataTutosEle["xp"] = ejer[i][j].xp!
+                arr[j] = dataTutosEle
+            }
+            
+            dataEjer[idseccion[i]] = arr
+        }
+       // dataTutos.write(toFile: dataFilePathTutos(), atomically: true)
+        dataEjer.write(toFile: dataFilePathEjer(), atomically: true)
     }
     
     static func boolUpdatePlayerName(_ strName_I: String){
@@ -118,9 +195,22 @@ class GameController{
     }
     static func dataFilePath() -> String
     {
-        let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
-        let documentsDirectory = paths[0]
+        let path = Bundle.main.path(forResource: "User", ofType: "plist")
         
-        return documentsDirectory.appending("/data.plist")
+        return path!
+    }
+    
+    static func dataFilePathTutos() -> String
+    {
+        let path = Bundle.main.path(forResource: "Tutoriales", ofType: "plist")
+        
+        return path!
+    }
+    
+    static func dataFilePathEjer() -> String
+    {
+        let path = Bundle.main.path(forResource: "Ejercicios", ofType: "plist")
+        
+        return path!
     }
 }

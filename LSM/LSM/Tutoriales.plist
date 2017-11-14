@@ -1,0 +1,4851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Abecedario</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Abecedario/a.JPG</string>
+<key>text</key>
+<string>a</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/b.JPG</string>
+<key>text</key>
+<string>b</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/c.JPG</string>
+<key>text</key>
+<string>c</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/d.JPG</string>
+<key>text</key>
+<string>d</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/e.JPG</string>
+<key>text</key>
+<string>e</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/f.JPG</string>
+<key>text</key>
+<string>f</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/g.JPG</string>
+<key>text</key>
+<string>g</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/h.JPG</string>
+<key>text</key>
+<string>h</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/i.JPG</string>
+<key>text</key>
+<string>i</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/j.mp4</string>
+<key>text</key>
+<string>j</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/k.mp4</string>
+<key>text</key>
+<string>k</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/l.JPG</string>
+<key>text</key>
+<string>l</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/ll.mp4</string>
+<key>text</key>
+<string>ll</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/m.JPG</string>
+<key>text</key>
+<string>m</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/n.JPG</string>
+<key>text</key>
+<string>n</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/nie.mp4</string>
+<key>text</key>
+<string>nie</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/o.JPG</string>
+<key>text</key>
+<string>o</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/p.JPG</string>
+<key>text</key>
+<string>p</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/q.mp4</string>
+<key>text</key>
+<string>q</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/r.JPG</string>
+<key>text</key>
+<string>r</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/rr.mp4</string>
+<key>text</key>
+<string>rr</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/s.JPG</string>
+<key>text</key>
+<string>s</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/t.JPG</string>
+<key>text</key>
+<string>t</string>
+<key>isVideo</key>
+<false/>
+</dict>
+		<dict>
+<key>url</key>
+<string>Abecedario/u.JPG</string>
+<key>text</key>
+<string>u</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/v.JPG</string>
+<key>text</key>
+<string>v</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/w.JPG</string>
+<key>text</key>
+<string>w</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/x.mp4</string>
+<key>text</key>
+<string>x</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/y.jpg</string>
+<key>text</key>
+<string>y</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Abecedario/z.mp4</string>
+<key>text</key>
+<string>z</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>Animales</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Animales/abeja.mp4</string>
+<key>text</key>
+<string>abeja</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/aguila.mp4</string>
+<key>text</key>
+<string>aguila</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/arana.mp4</string>
+<key>text</key>
+<string>arana</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/ardilla.mp4</string>
+<key>text</key>
+<string>ardilla</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/burro.mp4</string>
+<key>text</key>
+<string>burro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/caballo.mp4</string>
+<key>text</key>
+<string>caballo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/cerdo.mp4</string>
+<key>text</key>
+<string>cerdo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/chango.mp4</string>
+<key>text</key>
+<string>chango</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/conejo.mp4</string>
+<key>text</key>
+<string>conejo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/gato.mp4</string>
+<key>text</key>
+<string>gato</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/gorila.mp4</string>
+<key>text</key>
+<string>gorila</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/gusano.mp4</string>
+<key>text</key>
+<string>gusano</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/jirafa.mp4</string>
+<key>text</key>
+<string>jirafa</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/leon.mp4</string>
+<key>text</key>
+<string>leon</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/mariposa.mp4</string>
+<key>text</key>
+<string>mariposa</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/oso.mp4</string>
+<key>text</key>
+<string>oso</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/pajaro.mp4</string>
+<key>text</key>
+<string>pajaro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/paloma.mp4</string>
+<key>text</key>
+<string>paloma</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/pato.mp4</string>
+<key>text</key>
+<string>pato</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/perro.mp4</string>
+<key>text</key>
+<string>perro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/pez.mp4</string>
+<key>text</key>
+<string>pez</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/raton.mp4</string>
+<key>text</key>
+<string>raton</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>Animales/tigre.mp4</string>
+<key>text</key>
+<string>tigre</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/toro.mp4</string>
+<key>text</key>
+<string>toro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/tortuga.mp4</string>
+<key>text</key>
+<string>tortuga</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/vaca.mp4</string>
+<key>text</key>
+<string>vaca</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Animales/vibora.mp4</string>
+<key>text</key>
+<string>vibora</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>Colores</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Colores/amarillo.mp4</string>
+<key>text</key>
+<string>amarillo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Colores/azul.mp4</string>
+<key>text</key>
+<string>azul</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Colores/blanco.mp4</string>
+<key>text</key>
+<string>blanco</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Colores/cafe.mp4</string>
+<key>text</key>
+<string>cafe</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Colores/gris.mp4</string>
+<key>text</key>
+<string>gris</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Colores/morado.mp4</string>
+<key>text</key>
+<string>morado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Colores/naranja.mp4</string>
+<key>text</key>
+<string>naranja</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Colores/negro.mp4</string>
+<key>text</key>
+<string>negro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Colores/oro.mp4</string>
+<key>text</key>
+<string>oro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Colores/plata.mp4</string>
+<key>text</key>
+<string>plata</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Colores/rojo.mp4</string>
+<key>text</key>
+<string>rojo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Colores/rosa.mp4</string>
+<key>text</key>
+<string>rosa</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>Colores/verde.mp4</string>
+<key>text</key>
+<string>verde</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>Comida</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Comida/aceite.mp4</string>
+<key>text</key>
+<string>aceite</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/agua.mp4</string>
+<key>text</key>
+<string>agua</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/arroz.mp4</string>
+<key>text</key>
+<string>arroz</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/azucar.mp4</string>
+<key>text</key>
+<string>azucar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/cafe.mp4</string>
+<key>text</key>
+<string>cafe</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/caldo.mp4</string>
+<key>text</key>
+<string>caldo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/carne.mp4</string>
+<key>text</key>
+<string>carne</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/cerveza.mp4</string>
+<key>text</key>
+<string>cerveza</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/chile.mp4</string>
+<key>text</key>
+<string>chile</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/chocolate.mp4</string>
+<key>text</key>
+<string>chocolate</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/cocaCola.mp4</string>
+<key>text</key>
+<string>cocaCola</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/dulce.mp4</string>
+<key>text</key>
+<string>dulce</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/ensalada.mp4</string>
+<key>text</key>
+<string>ensalada</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/frijol.mp4</string>
+<key>text</key>
+<string>frijol</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/fruta.mp4</string>
+<key>text</key>
+<string>fruta</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/galleta.mp4</string>
+<key>text</key>
+<string>galleta</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/hamburguesa.mp4</string>
+<key>text</key>
+<string>hamburguesa</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/huevo.mp4</string>
+<key>text</key>
+<string>huevo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/leche.mp4</string>
+<key>text</key>
+<string>leche</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/pan.mp4</string>
+<key>text</key>
+<string>pan</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/pastel.mp4</string>
+<key>text</key>
+<string>pastel</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/pescado.mp4</string>
+<key>text</key>
+<string>pescado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/pizza.mp4</string>
+<key>text</key>
+<string>pizza</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/pollo.mp4</string>
+<key>text</key>
+<string>pollo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/queso.mp4</string>
+<key>text</key>
+<string>queso</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/refresco.mp4</string>
+<key>text</key>
+<string>refresco</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/sopa.mp4</string>
+<key>text</key>
+<string>sopa</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/taco.mp4</string>
+<key>text</key>
+<string>taco</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/tortilla.mp4</string>
+<key>text</key>
+<string>tortilla</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Comida/verdura.mp4</string>
+<key>text</key>
+<string>verdura</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>Cuerpo</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Cuerpo/boca.mp4</string>
+<key>text</key>
+<string>boca</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Cuerpo/cabeza.mp4</string>
+<key>text</key>
+<string>cabeza</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Cuerpo/cara.mp4</string>
+<key>text</key>
+<string>cara</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Cuerpo/cejas.mp4</string>
+<key>text</key>
+<string>cejas</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Cuerpo/corazon.mp4</string>
+<key>text</key>
+<string>corazon</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Cuerpo/estomago.mp4</string>
+<key>text</key>
+<string>estomago</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Cuerpo/hueso.mp4</string>
+<key>text</key>
+<string>hueso</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Cuerpo/mano.mp4</string>
+<key>text</key>
+<string>mano</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Cuerpo/nariz.mp4</string>
+<key>text</key>
+<string>nariz</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Cuerpo/ojos.mp4</string>
+<key>text</key>
+<string>ojos</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Cuerpo/oreja.mp4</string>
+<key>text</key>
+<string>oreja</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Cuerpo/pestanas.mp4</string>
+<key>text</key>
+<string>pestanas</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Cuerpo/piel.mp4</string>
+<key>text</key>
+<string>piel</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Cuerpo/pies.mp4</string>
+<key>text</key>
+<string>pies</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Cuerpo/sangre.mp4</string>
+<key>text</key>
+<string>sangre</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	</array>
+<key>DiasDeLaSemana</key>
+<array>
+	<dict>
+<key>url</key>
+<string>DiasDeLaSemana/domingo.mp4</string>
+<key>text</key>
+<string>domingo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>DiasDeLaSemana/jueves.mp4</string>
+<key>text</key>
+<string>jueves</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>DiasDeLaSemana/lunes.mp4</string>
+<key>text</key>
+<string>lunes</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>DiasDeLaSemana/martes.mp4</string>
+<key>text</key>
+<string>martes</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>DiasDeLaSemana/miercoles.mp4</string>
+<key>text</key>
+<string>miercoles</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>DiasDeLaSemana/sabado.mp4</string>
+<key>text</key>
+<string>sabado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>DiasDeLaSemana/viernes.mp4</string>
+<key>text</key>
+<string>viernes</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>Frutas</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Frutas/almendra.mp4</string>
+<key>text</key>
+<string>almendra</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/cereza.mp4</string>
+<key>text</key>
+<string>cereza</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/coco.mp4</string>
+<key>text</key>
+<string>coco</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/durazno.mp4</string>
+<key>text</key>
+<string>durazno</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/fresa.mp4</string>
+<key>text</key>
+<string>fresa</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/guayaba.mp4</string>
+<key>text</key>
+<string>guayaba</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/jamaica.mp4</string>
+<key>text</key>
+<string>jamaica</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/jicama.mp4</string>
+<key>text</key>
+<string>jicama</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/limon.mp4</string>
+<key>text</key>
+<string>limon</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/mango.mp4</string>
+<key>text</key>
+<string>mango</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/manzana.mp4</string>
+<key>text</key>
+<string>manzana</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/melon.mp4</string>
+<key>text</key>
+<string>melon</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/naranja.mp4</string>
+<key>text</key>
+<string>naranja</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/nuez.mp4</string>
+<key>text</key>
+<string>nuez</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/papaya.mp4</string>
+<key>text</key>
+<string>papaya</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/pera.mp4</string>
+<key>text</key>
+<string>pera</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/pina.mp4</string>
+<key>text</key>
+<string>pina</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/platano.mp4</string>
+<key>text</key>
+<string>platano</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/sandia.mp4</string>
+<key>text</key>
+<string>sandia</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/tamarindo.mp4</string>
+<key>text</key>
+<string>tamarindo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>Frutas/toronja.mp4</string>
+<key>text</key>
+<string>toronja</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Frutas/uva.mp4</string>
+<key>text</key>
+<string>uva</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>Hogar</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Hogar/bano.mp4</string>
+<key>text</key>
+<string>bano</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/caja.mp4</string>
+<key>text</key>
+<string>caja</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/cama.mp4</string>
+<key>text</key>
+<string>cama</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/casa.mp4</string>
+<key>text</key>
+<string>casa</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/celular.mp4</string>
+<key>text</key>
+<string>celular</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/cocina.mp4</string>
+<key>text</key>
+<string>cocina</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/computadora.mp4</string>
+<key>text</key>
+<string>computadora</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/cuarto.mp4</string>
+<key>text</key>
+<string>cuarto</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/cuchara.mp4</string>
+<key>text</key>
+<string>cuchara</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/foco.mp4</string>
+<key>text</key>
+<string>foco</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/gas.mp4</string>
+<key>text</key>
+<string>gas</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/impresora.mp4</string>
+<key>text</key>
+<string>impresora</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/lavadora.mp4</string>
+<key>text</key>
+<string>lavadora</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/licuadora.mp4</string>
+<key>text</key>
+<string>licuadora</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/llave.mp4</string>
+<key>text</key>
+<string>llave</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/luz.mp4</string>
+<key>text</key>
+<string>luz</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/mesa.mp4</string>
+<key>text</key>
+<string>mesa</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/plancha.mp4</string>
+<key>text</key>
+<string>plancha</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/plato.mp4</string>
+<key>text</key>
+<string>plato</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/puerta.mp4</string>
+<key>text</key>
+<string>puerta</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/silla.mp4</string>
+<key>text</key>
+<string>silla</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/telefono.mp4</string>
+<key>text</key>
+<string>telefono</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/tenedor.mp4</string>
+<key>text</key>
+<string>tenedor</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>Hogar/vaso.mp4</string>
+<key>text</key>
+<string>vaso</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Hogar/ventana.mp4</string>
+<key>text</key>
+<string>ventana</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>Lugares</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Lugares/antro.mp4</string>
+<key>text</key>
+<string>antro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/banco.mp4</string>
+<key>text</key>
+<string>banco</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/calle.mp4</string>
+<key>text</key>
+<string>calle</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/cantina.mp4</string>
+<key>text</key>
+<string>cantina</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/casa.mp4</string>
+<key>text</key>
+<string>casa</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/centro.mp4</string>
+<key>text</key>
+<string>centro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/cine.mp4</string>
+<key>text</key>
+<string>cine</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/ciudad.mp4</string>
+<key>text</key>
+<string>ciudad</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/edificio.mp4</string>
+<key>text</key>
+<string>edificio</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/escuela.mp4</string>
+<key>text</key>
+<string>escuela</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/fabrica.mp4</string>
+<key>text</key>
+<string>fabrica</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/feria.mp4</string>
+<key>text</key>
+<string>feria</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/fiesta.mp4</string>
+<key>text</key>
+<string>fiesta</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/hotel.mp4</string>
+<key>text</key>
+<string>hotel</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/iglesia.mp4</string>
+<key>text</key>
+<string>iglesia</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/mercado.mp4</string>
+<key>text</key>
+<string>mercado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/museo.mp4</string>
+<key>text</key>
+<string>museo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/restaurante.mp4</string>
+<key>text</key>
+<string>restaurante</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Lugares/teatro.mp4</string>
+<key>text</key>
+<string>teatro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>Lugares/tienda.mp4</string>
+<key>text</key>
+<string>tienda</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>MesesDelAno</key>
+<array>
+	<dict>
+<key>url</key>
+<string>MesesDelAno/abril.mp4</string>
+<key>text</key>
+<string>abril</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>MesesDelAno/agosto.mp4</string>
+<key>text</key>
+<string>agosto</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>MesesDelAno/diciembre.mp4</string>
+<key>text</key>
+<string>diciembre</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>MesesDelAno/enero.mp4</string>
+<key>text</key>
+<string>enero</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>MesesDelAno/febrero.mp4</string>
+<key>text</key>
+<string>febrero</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>MesesDelAno/julio.mp4</string>
+<key>text</key>
+<string>julio</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>MesesDelAno/junio.mp4</string>
+<key>text</key>
+<string>junio</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>MesesDelAno/marzo.mp4</string>
+<key>text</key>
+<string>marzo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>MesesDelAno/mayo.mp4</string>
+<key>text</key>
+<string>mayo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>MesesDelAno/noviembre.mp4</string>
+<key>text</key>
+<string>noviembre</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>MesesDelAno/octubre.mp4</string>
+<key>text</key>
+<string>octubre</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>MesesDelAno/septiembre.mp4</string>
+<key>text</key>
+<string>septiembre</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	</array>
+<key>Numeros</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Numeros/0.JPG</string>
+<key>text</key>
+<string>0</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/1.JPG</string>
+<key>text</key>
+<string>1</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/10.mp4</string>
+<key>text</key>
+<string>10</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/100.mp4</string>
+<key>text</key>
+<string>100</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/1000.mp4</string>
+<key>text</key>
+<string>1000</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/1000000.mp4</string>
+<key>text</key>
+<string>1000000</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/11.mp4</string>
+<key>text</key>
+<string>11</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/12.mp4</string>
+<key>text</key>
+<string>12</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/13.mp4</string>
+<key>text</key>
+<string>13</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/14.mp4</string>
+<key>text</key>
+<string>14</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/15.mp4</string>
+<key>text</key>
+<string>15</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/16.mp4</string>
+<key>text</key>
+<string>16</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/17.mp4</string>
+<key>text</key>
+<string>17</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/18.mp4</string>
+<key>text</key>
+<string>18</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/19.mp4</string>
+<key>text</key>
+<string>19</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/2.JPG</string>
+<key>text</key>
+<string>2</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/20.mp4</string>
+<key>text</key>
+<string>20</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/200.mp4</string>
+<key>text</key>
+<string>200</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/25.mp4</string>
+<key>text</key>
+<string>25</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/3.JPG</string>
+<key>text</key>
+<string>3</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/30.mp4</string>
+<key>text</key>
+<string>30</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/300.mp4</string>
+<key>text</key>
+<string>300</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/4.JPG</string>
+<key>text</key>
+<string>4</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/40.mp4</string>
+<key>text</key>
+<string>40</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/400.mp4</string>
+<key>text</key>
+<string>400</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/5.JPG</string>
+<key>text</key>
+<string>5</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/50.mp4</string>
+<key>text</key>
+<string>50</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/500.mp4</string>
+<key>text</key>
+<string>500</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/6.JPG</string>
+<key>text</key>
+<string>6</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/60.mp4</string>
+<key>text</key>
+<string>60</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/600.mp4</string>
+<key>text</key>
+<string>600</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/7.JPG</string>
+<key>text</key>
+<string>7</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/70.mp4</string>
+<key>text</key>
+<string>70</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/700.mp4</string>
+<key>text</key>
+<string>700</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/8.JPG</string>
+<key>text</key>
+<string>8</string>
+<key>isVideo</key>
+<false/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/80.mp4</string>
+<key>text</key>
+<string>80</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/800.mp4</string>
+<key>text</key>
+<string>800</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/9.mp4</string>
+<key>text</key>
+<string>9</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/90.mp4</string>
+<key>text</key>
+<string>90</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Numeros/900.mp4</string>
+<key>text</key>
+<string>900</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	</array>
+<key>Personas</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Personas/abuela.mp4</string>
+<key>text</key>
+<string>abuela</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/abuelo.mp4</string>
+<key>text</key>
+<string>abuelo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/adulto.mp4</string>
+<key>text</key>
+<string>adulto</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/amante.mp4</string>
+<key>text</key>
+<string>amante</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/amiga.mp4</string>
+<key>text</key>
+<string>amiga</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/amigo.mp4</string>
+<key>text</key>
+<string>amigo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/anciano.mp4</string>
+<key>text</key>
+<string>anciano</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/bebe.mp4</string>
+<key>text</key>
+<string>bebe</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/bisabuela.mp4</string>
+<key>text</key>
+<string>bisabuela</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/bisabuelo.mp4</string>
+<key>text</key>
+<string>bisabuelo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/bisnieta.mp4</string>
+<key>text</key>
+<string>bisnieta</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/bisnieto.mp4</string>
+<key>text</key>
+<string>bisnieto</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/ciego.mp4</string>
+<key>text</key>
+<string>ciego</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/companero.mp4</string>
+<key>text</key>
+<string>companero</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/cunada.mp4</string>
+<key>text</key>
+<string>cunada</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/cunado.mp4</string>
+<key>text</key>
+<string>cunado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/divorciado.mp4</string>
+<key>text</key>
+<string>divorciado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/esposa.mp4</string>
+<key>text</key>
+<string>esposa</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/esposo.mp4</string>
+<key>text</key>
+<string>esposo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/hermana.mp4</string>
+<key>text</key>
+<string>hermana</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/hermano.mp4</string>
+<key>text</key>
+<string>hermano</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/hija.mp4</string>
+<key>text</key>
+<string>hija</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/hijastra.mp4</string>
+<key>text</key>
+<string>hijastra</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/hijastro.mp4</string>
+<key>text</key>
+<string>hijastro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/hijo.mp4</string>
+<key>text</key>
+<string>hijo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/hombre.mp4</string>
+<key>text</key>
+<string>hombre</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/huerfano.mp4</string>
+<key>text</key>
+<string>huerfano</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/madrastra.mp4</string>
+<key>text</key>
+<string>madrastra</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/madrina.mp4</string>
+<key>text</key>
+<string>madrina</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/mama.mp4</string>
+<key>text</key>
+<string>mama</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/matrimonio.mp4</string>
+<key>text</key>
+<string>matrimonio</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/mediaHermana.mp4</string>
+<key>text</key>
+<string>mediaHermana</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/medioHermano.mp4</string>
+<key>text</key>
+<string>medioHermano</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/mujer.mp4</string>
+<key>text</key>
+<string>mujer</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/nieta.mp4</string>
+<key>text</key>
+<string>nieta</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/nieto.mp4</string>
+<key>text</key>
+<string>nieto</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/nina.mp4</string>
+<key>text</key>
+<string>nina</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/nino.mp4</string>
+<key>text</key>
+<string>nino</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/novia.mp4</string>
+<key>text</key>
+<string>novia</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/novio.mp4</string>
+<key>text</key>
+<string>novio</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/nuera.mp4</string>
+<key>text</key>
+<string>nuera</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/oyente.mp4</string>
+<key>text</key>
+<string>oyente</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/padrastro.mp4</string>
+<key>text</key>
+<string>padrastro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/padrino.mp4</string>
+<key>text</key>
+<string>padrino</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/papa.mp4</string>
+<key>text</key>
+<string>papa</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/pareja.mp4</string>
+<key>text</key>
+<string>pareja</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/persona.mp4</string>
+<key>text</key>
+<string>persona</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/prima.mp4</string>
+<key>text</key>
+<string>prima</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/primo.mp4</string>
+<key>text</key>
+<string>primo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/senor.mp4</string>
+<key>text</key>
+<string>senor</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/senora.mp4</string>
+<key>text</key>
+<string>senora</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/senorita.mp4</string>
+<key>text</key>
+<string>senorita</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/separado.mp4</string>
+<key>text</key>
+<string>separado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/sobrina.mp4</string>
+<key>text</key>
+<string>sobrina</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/sobrino.mp4</string>
+<key>text</key>
+<string>sobrino</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/soltero.mp4</string>
+<key>text</key>
+<string>soltero</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/sordo.mp4</string>
+<key>text</key>
+<string>sordo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/suegra.mp4</string>
+<key>text</key>
+<string>suegra</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/suegro.mp4</string>
+<key>text</key>
+<string>suegro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>Personas/tia.mp4</string>
+<key>text</key>
+<string>tia</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/tio.mp4</string>
+<key>text</key>
+<string>tio</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/unionLibre.mp4</string>
+<key>text</key>
+<string>unionLibre</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/vecino.mp4</string>
+<key>text</key>
+<string>vecino</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/viudo.mp4</string>
+<key>text</key>
+<string>viudo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Personas/yerno.mp4</string>
+<key>text</key>
+<string>yerno</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>Preguntas</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Preguntas/como.mp4</string>
+<key>text</key>
+<string>como</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Preguntas/cual.mp4</string>
+<key>text</key>
+<string>cual</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Preguntas/cuando.mp4</string>
+<key>text</key>
+<string>cuando</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Preguntas/cuanto.mp4</string>
+<key>text</key>
+<string>cuanto</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Preguntas/donde.mp4</string>
+<key>text</key>
+<string>donde</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Preguntas/paraQue.mp4</string>
+<key>text</key>
+<string>paraQue</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Preguntas/porQue.mp4</string>
+<key>text</key>
+<string>porQue</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Preguntas/que.mp4</string>
+<key>text</key>
+<string>que</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Preguntas/quien.mp4</string>
+<key>text</key>
+<string>quien</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	</array>
+<key>PreposicionesAdjetivosSustantivosAdverbios</key>
+<array>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/abajo.mp4</string>
+<key>text</key>
+<string>abajo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/aburrido.mp4</string>
+<key>text</key>
+<string>aburrido</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/accidente.mp4</string>
+<key>text</key>
+<string>accidente</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/adentro.mp4</string>
+<key>text</key>
+<string>adentro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/afortunado.mp4</string>
+<key>text</key>
+<string>afortunado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/alegreDivertido.mp4</string>
+<key>text</key>
+<string>alegreDivertido</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/algunos.mp4</string>
+<key>text</key>
+<string>algunos</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/altoEstatura.mp4</string>
+<key>text</key>
+<string>altoEstatura</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/amable.mp4</string>
+<key>text</key>
+<string>amable</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/antes.mp4</string>
+<key>text</key>
+<string>antes</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/arriba.mp4</string>
+<key>text</key>
+<string>arriba</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/asustado.mp4</string>
+<key>text</key>
+<string>asustado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/atencionAtento.mp4</string>
+<key>text</key>
+<string>atencionAtento</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/baboso.mp4</string>
+<key>text</key>
+<string>baboso</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/bonito.mp4</string>
+<key>text</key>
+<string>bonito</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/broma.mp4</string>
+<key>text</key>
+<string>broma</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/bueno.mp4</string>
+<key>text</key>
+<string>bueno</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/cada.mp4</string>
+<key>text</key>
+<string>cada</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/caliente.mp4</string>
+<key>text</key>
+<string>caliente</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/cansado.mp4</string>
+<key>text</key>
+<string>cansado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/carino.mp4</string>
+<key>text</key>
+<string>carino</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/celoso.mp4</string>
+<key>text</key>
+<string>celoso</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/chaparro.mp4</string>
+<key>text</key>
+<string>chaparro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/chistoso.mp4</string>
+<key>text</key>
+<string>chistoso</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/cobarde.mp4</string>
+<key>text</key>
+<string>cobarde</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/contento.mp4</string>
+<key>text</key>
+<string>contento</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/curioso.mp4</string>
+<key>text</key>
+<string>curioso</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/debil.mp4</string>
+<key>text</key>
+<string>debil</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/decente.mp4</string>
+<key>text</key>
+<string>decente</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/delgado.mp4</string>
+<key>text</key>
+<string>delgado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/despacio.mp4</string>
+<key>text</key>
+<string>despacio</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/diferente.mp4</string>
+<key>text</key>
+<string>diferente</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/dificil.mp4</string>
+<key>text</key>
+<string>dificil</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/diploma.mp4</string>
+<key>text</key>
+<string>diploma</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/duda.mp4</string>
+<key>text</key>
+<string>duda</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/egoista.mp4</string>
+<key>text</key>
+<string>egoista</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/ejemplo.mp4</string>
+<key>text</key>
+<string>ejemplo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/ejercicio.mp4</string>
+<key>text</key>
+<string>ejercicio</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/enojado.mp4</string>
+<key>text</key>
+<string>enojado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/envidia.mp4</string>
+<key>text</key>
+<string>envidia</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/especial.mp4</string>
+<key>text</key>
+<string>especial</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/facil.mp4</string>
+<key>text</key>
+<string>facil</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/falso.mp4</string>
+<key>text</key>
+<string>falso</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/feliz.mp4</string>
+<key>text</key>
+<string>feliz</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/feo.mp4</string>
+<key>text</key>
+<string>feo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/flojo.mp4</string>
+<key>text</key>
+<string>flojo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/fuerte.mp4</string>
+<key>text</key>
+<string>fuerte</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/fuerza.mp4</string>
+<key>text</key>
+<string>fuerza</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/gordo.mp4</string>
+<key>text</key>
+<string>gordo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/gratis.mp4</string>
+<key>text</key>
+<string>gratis</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/grosero.mp4</string>
+<key>text</key>
+<string>grosero</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/guapo.mp4</string>
+<key>text</key>
+<string>guapo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/hambre.mp4</string>
+<key>text</key>
+<string>hambre</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/historia.mp4</string>
+<key>text</key>
+<string>historia</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/humilde.mp4</string>
+<key>text</key>
+<string>humilde</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/importante.mp4</string>
+<key>text</key>
+<string>importante</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/inteligente.mp4</string>
+<key>text</key>
+<string>inteligente</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/jamas.mp4</string>
+<key>text</key>
+<string>jamas</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/junta.mp4</string>
+<key>text</key>
+<string>junta</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/junto.mp4</string>
+<key>text</key>
+<string>junto</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/lejos.mp4</string>
+<key>text</key>
+<string>lejos</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/libre.mp4</string>
+<key>text</key>
+<string>libre</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/loco.mp4</string>
+<key>text</key>
+<string>loco</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/lsm.mp4</string>
+<key>text</key>
+<string>lsm</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/malo.mp4</string>
+<key>text</key>
+<string>malo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/mas.mp4</string>
+<key>text</key>
+<string>mas</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/mejor.mp4</string>
+<key>text</key>
+<string>mejor</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/miedo.mp4</string>
+<key>text</key>
+<string>miedo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/necio.mp4</string>
+<key>text</key>
+<string>necio</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/no.mp4</string>
+<key>text</key>
+<string>no</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/nuevo.mp4</string>
+<key>text</key>
+<string>nuevo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/nunca.mp4</string>
+<key>text</key>
+<string>nunca</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/ojala.mp4</string>
+<key>text</key>
+<string>ojala</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/paciencia.mp4</string>
+<key>text</key>
+<string>paciencia</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/peor.mp4</string>
+<key>text</key>
+<string>peor</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/perdon.mp4</string>
+<key>text</key>
+<string>perdon</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/pero.mp4</string>
+<key>text</key>
+<string>pero</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/pobre.mp4</string>
+<key>text</key>
+<string>pobre</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/presumido.mp4</string>
+<key>text</key>
+<string>presumido</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/problema.mp4</string>
+<key>text</key>
+<string>problema</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/rapidoPronto.mp4</string>
+<key>text</key>
+<string>rapidoPronto</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/raro.mp4</string>
+<key>text</key>
+<string>raro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/secreto.mp4</string>
+<key>text</key>
+<string>secreto</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/senaProipa.mp4</string>
+<key>text</key>
+<string>senaProipa</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/senas.mp4</string>
+<key>text</key>
+<string>senas</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/si.mp4</string>
+<key>text</key>
+<string>si</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/sucio.mp4</string>
+<key>text</key>
+<string>sucio</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/suerte.mp4</string>
+<key>text</key>
+<string>suerte</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/todo.mp4</string>
+<key>text</key>
+<string>todo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/tonto.mp4</string>
+<key>text</key>
+<string>tonto</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/travieso.mp4</string>
+<key>text</key>
+<string>travieso</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/triste.mp4</string>
+<key>text</key>
+<string>triste</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/verdad.mp4</string>
+<key>text</key>
+<string>verdad</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PreposicionesAdjetivosSustantivosAdverbios/verguenza.mp4</string>
+<key>text</key>
+<string>verguenza</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>Pronombres</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Pronombres/el.mp4</string>
+<key>text</key>
+<string>el</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Pronombres/ella.mp4</string>
+<key>text</key>
+<string>ella</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Pronombres/ellos.mp4</string>
+<key>text</key>
+<string>ellos</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Pronombres/nosotros.mp4</string>
+<key>text</key>
+<string>nosotros</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>Pronombres/tu.mp4</string>
+<key>text</key>
+<string>tu</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Pronombres/ustedes.mp4</string>
+<key>text</key>
+<string>ustedes</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Pronombres/yo.mp4</string>
+<key>text</key>
+<string>yo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>PuestosProfesionesOficios</key>
+<array>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/abogado.mp4</string>
+<key>text</key>
+<string>abogado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/actor.mp4</string>
+<key>text</key>
+<string>actor</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/albanil.mp4</string>
+<key>text</key>
+<string>albanil</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/alumno.mp4</string>
+<key>text</key>
+<string>alumno</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/arquitecto.mp4</string>
+<key>text</key>
+<string>arquitecto</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/bombero.mp4</string>
+<key>text</key>
+<string>bombero</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/carpintero.mp4</string>
+<key>text</key>
+<string>carpintero</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/chofer.mp4</string>
+<key>text</key>
+<string>chofer</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/dentista.mp4</string>
+<key>text</key>
+<string>dentista</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/diputado.mp4</string>
+<key>text</key>
+<string>diputado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/director.mp4</string>
+<key>text</key>
+<string>director</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/enfermera.mp4</string>
+<key>text</key>
+<string>enfermera</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/gobernador.mp4</string>
+<key>text</key>
+<string>gobernador</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/guardia.mp4</string>
+<key>text</key>
+<string>guardia</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/ingeniero.mp4</string>
+<key>text</key>
+<string>ingeniero</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/interprete.mp4</string>
+<key>text</key>
+<string>interprete</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/jefe.mp4</string>
+<key>text</key>
+<string>jefe</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/licenciado.mp4</string>
+<key>text</key>
+<string>licenciado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/lider.mp4</string>
+<key>text</key>
+<string>lider</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/maestro.mp4</string>
+<key>text</key>
+<string>maestro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/mecanico.mp4</string>
+<key>text</key>
+<string>mecanico</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/medico.mp4</string>
+<key>text</key>
+<string>medico</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/mesero.mp4</string>
+<key>text</key>
+<string>mesero</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/policia.mp4</string>
+<key>text</key>
+<string>policia</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/presidente.mp4</string>
+<key>text</key>
+<string>presidente</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/profesor.mp4</string>
+<key>text</key>
+<string>profesor</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/psicologo.mp4</string>
+<key>text</key>
+<string>psicologo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/senador.mp4</string>
+<key>text</key>
+<string>senador</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/soldado.mp4</string>
+<key>text</key>
+<string>soldado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/taxista.mp4</string>
+<key>text</key>
+<string>taxista</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/tecnico.mp4</string>
+<key>text</key>
+<string>tecnico</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>PuestosProfesionesOficios/vendedor.mp4</string>
+<key>text</key>
+<string>vendedor</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>Ropa</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Ropa/abrigo.mp4</string>
+<key>text</key>
+<string>abrigo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Ropa/brasier.mp4</string>
+<key>text</key>
+<string>brasier</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Ropa/bufanda.mp4</string>
+<key>text</key>
+<string>bufanda</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Ropa/calzon.mp4</string>
+<key>text</key>
+<string>calzon</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Ropa/camisa.mp4</string>
+<key>text</key>
+<string>camisa</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Ropa/corbata.mp4</string>
+<key>text</key>
+<string>corbata</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Ropa/falda.mp4</string>
+<key>text</key>
+<string>falda</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Ropa/medias.mp4</string>
+<key>text</key>
+<string>medias</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Ropa/pantalon.mp4</string>
+<key>text</key>
+<string>pantalon</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Ropa/tenis.mp4</string>
+<key>text</key>
+<string>tenis</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>Ropa/vestido.mp4</string>
+<key>text</key>
+<string>vestido</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Ropa/zapatos.mp4</string>
+<key>text</key>
+<string>zapatos</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>SaludosCortesias</key>
+<array>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/adios.mp4</string>
+<key>text</key>
+<string>adios</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/bien.mp4</string>
+<key>text</key>
+<string>bien</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/buenasNoches.mp4</string>
+<key>text</key>
+<string>buenasNoches</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/buenasTardes.mp4</string>
+<key>text</key>
+<string>buenasTardes</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/buenosDias.mp4</string>
+<key>text</key>
+<string>buenosDias</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/comoEstas.mp4</string>
+<key>text</key>
+<string>comoEstas</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/comoTeLlamas.mp4</string>
+<key>text</key>
+<string>comoTeLlamas</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/deNada.mp4</string>
+<key>text</key>
+<string>deNada</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/gracias.mp4</string>
+<key>text</key>
+<string>gracias</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/gustoDeConocerte.mp4</string>
+<key>text</key>
+<string>gustoDeConocerte</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/hola.mp4</string>
+<key>text</key>
+<string>hola</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/mal.mp4</string>
+<key>text</key>
+<string>mal</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/masOMenos.mp4</string>
+<key>text</key>
+<string>masOMenos</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/nosVemos.mp4</string>
+<key>text</key>
+<string>nosVemos</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>SaludosCortesias/porFavor.mp4</string>
+<key>text</key>
+<string>porFavor</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>Tiempo</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Tiempo/ahora.mp4</string>
+<key>text</key>
+<string>ahora</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/ahorita.mp4</string>
+<key>text</key>
+<string>ahorita</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/aire.mp4</string>
+<key>text</key>
+<string>aire</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/ano.mp4</string>
+<key>text</key>
+<string>ano</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/antier.mp4</string>
+<key>text</key>
+<string>antier</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/aVeces.mp4</string>
+<key>text</key>
+<string>aVeces</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/ayer.mp4</string>
+<key>text</key>
+<string>ayer</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/calendario.mp4</string>
+<key>text</key>
+<string>calendario</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/calor.mp4</string>
+<key>text</key>
+<string>calor</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/cumpleanos.mp4</string>
+<key>text</key>
+<string>cumpleanos</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/despues.mp4</string>
+<key>text</key>
+<string>despues</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/dia.mp4</string>
+<key>text</key>
+<string>dia</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/edad.mp4</string>
+<key>text</key>
+<string>edad</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/fecha.mp4</string>
+<key>text</key>
+<string>fecha</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/frio.mp4</string>
+<key>text</key>
+<string>frio</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/futuro.mp4</string>
+<key>text</key>
+<string>futuro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/hasta.mp4</string>
+<key>text</key>
+<string>hasta</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/hora.mp4</string>
+<key>text</key>
+<string>hora</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/hoy.mp4</string>
+<key>text</key>
+<string>hoy</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/invierno.mp4</string>
+<key>text</key>
+<string>invierno</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/manana.mp4</string>
+<key>text</key>
+<string>manana</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/mediodia.mp4</string>
+<key>text</key>
+<string>mediodia</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/mes.mp4</string>
+<key>text</key>
+<string>mes</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/mientras.mp4</string>
+<key>text</key>
+<string>mientras</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/minuto.mp4</string>
+<key>text</key>
+<string>minuto</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/noche.mp4</string>
+<key>text</key>
+<string>noche</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/otono.mp4</string>
+<key>text</key>
+<string>otono</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/otraVez.mp4</string>
+<key>text</key>
+<string>otraVez</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/otro.mp4</string>
+<key>text</key>
+<string>otro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/pasado.mp4</string>
+<key>text</key>
+<string>pasado</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/presente.mp4</string>
+<key>text</key>
+<string>presente</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/primavera.mp4</string>
+<key>text</key>
+<string>primavera</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/primeraVez.mp4</string>
+<key>text</key>
+<string>primeraVez</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/proximo.mp4</string>
+<key>text</key>
+<string>proximo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/semana.mp4</string>
+<key>text</key>
+<string>semana</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/siempre.mp4</string>
+<key>text</key>
+<string>siempre</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/tarde.mp4</string>
+<key>text</key>
+<string>tarde</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/temprano.mp4</string>
+<key>text</key>
+<string>temprano</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>Tiempo/unaVez.mp4</string>
+<key>text</key>
+<string>unaVez</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/verano.mp4</string>
+<key>text</key>
+<string>verano</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Tiempo/viento.mp4</string>
+<key>text</key>
+<string>viento</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>Transporte</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Transporte/avion.mp4</string>
+<key>text</key>
+<string>avion</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Transporte/barco.mp4</string>
+<key>text</key>
+<string>barco</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Transporte/bicicleta.mp4</string>
+<key>text</key>
+<string>bicicleta</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Transporte/camion.mp4</string>
+<key>text</key>
+<string>camion</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Transporte/carro.mp4</string>
+<key>text</key>
+<string>carro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Transporte/cDeAutobuses.mp4</string>
+<key>text</key>
+<string>cDeAutobuses</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Transporte/helicoptero.mp4</string>
+<key>text</key>
+<string>helicoptero</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Transporte/metro.mp4</string>
+<key>text</key>
+<string>metro</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Transporte/motocicleta.mp4</string>
+<key>text</key>
+<string>motocicleta</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Transporte/taxi.mp4</string>
+<key>text</key>
+<string>taxi</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>Transporte/transporte.mp4</string>
+<key>text</key>
+<string>transporte</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Transporte/tren.mp4</string>
+<key>text</key>
+<string>tren</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>VerbosComunes</key>
+<array>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/aprender.mp4</string>
+<key>text</key>
+<string>aprender</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/avisar.mp4</string>
+<key>text</key>
+<string>avisar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/ayudar.mp4</string>
+<key>text</key>
+<string>ayudar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/comer.mp4</string>
+<key>text</key>
+<string>comer</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/comprar.mp4</string>
+<key>text</key>
+<string>comprar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/creer.mp4</string>
+<key>text</key>
+<string>creer</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/cuidar.mp4</string>
+<key>text</key>
+<string>cuidar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/dar.mp4</string>
+<key>text</key>
+<string>dar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/decir.mp4</string>
+<key>text</key>
+<string>decir</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/descansar.mp4</string>
+<key>text</key>
+<string>descansar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/dormir.mp4</string>
+<key>text</key>
+<string>dormir</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/empezar.mp4</string>
+<key>text</key>
+<string>empezar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/ensenar.mp4</string>
+<key>text</key>
+<string>ensenar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/entender.mp4</string>
+<key>text</key>
+<string>entender</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/escribir.mp4</string>
+<key>text</key>
+<string>escribir</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/esperar.mp4</string>
+<key>text</key>
+<string>esperar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/estudiar.mp4</string>
+<key>text</key>
+<string>estudiar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/explicar.mp4</string>
+<key>text</key>
+<string>explicar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/hablar.mp4</string>
+<key>text</key>
+<string>hablar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/hacer.mp4</string>
+<key>text</key>
+<string>hacer</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/jugar.mp4</string>
+<key>text</key>
+<string>jugar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/limpiar.mp4</string>
+<key>text</key>
+<string>limpiar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/necesitar.mp4</string>
+<key>text</key>
+<string>necesitar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/olvidar.mp4</string>
+<key>text</key>
+<string>olvidar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/pagar.mp4</string>
+<key>text</key>
+<string>pagar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/pensar.mp4</string>
+<key>text</key>
+<string>pensar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/perder.mp4</string>
+<key>text</key>
+<string>perder</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/platicar.mp4</string>
+<key>text</key>
+<string>platicar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/poder.mp4</string>
+<key>text</key>
+<string>poder</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/preguntar.mp4</string>
+<key>text</key>
+<string>preguntar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/sentar.mp4</string>
+<key>text</key>
+<string>sentar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/terminar.mp4</string>
+<key>text</key>
+<string>terminar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>VerbosComunes/trabajar.mp4</string>
+<key>text</key>
+<string>trabajar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/vender.mp4</string>
+<key>text</key>
+<string>vender</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/ver.mp4</string>
+<key>text</key>
+<string>ver</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosComunes/vivir.mp4</string>
+<key>text</key>
+<string>vivir</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+<key>VerbosNarrativos</key>
+<array>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/conocer.mp4</string>
+<key>text</key>
+<string>conocer</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/entender.mp4</string>
+<key>text</key>
+<string>entender</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/gustar.mp4</string>
+<key>text</key>
+<string>gustar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/haber.mp4</string>
+<key>text</key>
+<string>haber</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/noConocer.mp4</string>
+<key>text</key>
+<string>noConocer</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/noEntender.mp4</string>
+<key>text</key>
+<string>noEntender</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/noGustar.mp4</string>
+<key>text</key>
+<string>noGustar</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/noHaber.mp4</string>
+<key>text</key>
+<string>noHaber</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/noPoder.mp4</string>
+<key>text</key>
+<string>noPoder</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/noQuerer.mp4</string>
+<key>text</key>
+<string>noQuerer</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/noSaber.mp4</string>
+<key>text</key>
+<string>noSaber</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/noServir.mp4</string>
+<key>text</key>
+<string>noServir</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/poder.mp4</string>
+<key>text</key>
+<string>poder</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/querer.mp4</string>
+<key>text</key>
+<string>querer</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/saber.mp4</string>
+<key>text</key>
+<string>saber</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>VerbosNarrativos/servir.mp4</string>
+<key>text</key>
+<string>servir</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	</array>
+<key>Verduras</key>
+<array>
+	<dict>
+<key>url</key>
+<string>Verduras/aguacate.mp4</string>
+<key>text</key>
+<string>aguacate</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/ajo.mp4</string>
+<key>text</key>
+<string>ajo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/betabel.mp4</string>
+<key>text</key>
+<string>betabel</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/calabacita.mp4</string>
+<key>text</key>
+<string>calabacita</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/calabaza.mp4</string>
+<key>text</key>
+<string>calabaza</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/camote.mp4</string>
+<key>text</key>
+<string>camote</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/cebolla.mp4</string>
+<key>text</key>
+<string>cebolla</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/chicharo.mp4</string>
+<key>text</key>
+<string>chicharo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/chile.mp4</string>
+<key>text</key>
+<string>chile</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/elote.mp4</string>
+<key>text</key>
+<string>elote</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/frijol.mp4</string>
+<key>text</key>
+<string>frijol</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/hongo.mp4</string>
+<key>text</key>
+<string>hongo</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/jitomate.mp4</string>
+<key>text</key>
+<string>jitomate</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/lechuga.mp4</string>
+<key>text</key>
+<string>lechuga</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/nopal.mp4</string>
+<key>text</key>
+<string>nopal</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/papa.mp4</string>
+<key>text</key>
+<string>papa</string>
+<key>isVideo</key>
+<true/>
+</dict>
+	<dict>
+<key>url</key>
+<string>Verduras/pepino.mp4</string>
+<key>text</key>
+<string>pepino</string>
+<key>isVideo</key>
+<true/>
+</dict>
+		<dict>
+<key>url</key>
+<string>Verduras/zanahoria.mp4</string>
+<key>text</key>
+<string>zanahoria</string>
+<key>isVideo</key>
+<true/>
+</dict>
+</array>
+</dict>
+</plist>

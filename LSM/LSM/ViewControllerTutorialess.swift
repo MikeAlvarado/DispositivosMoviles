@@ -14,21 +14,29 @@ class ViewControllerTutorialess: UIViewController {
 
     @IBOutlet weak var lbTittulo: UILabel!
     @IBOutlet weak var lbRespuesta: UILabel!
-    @IBOutlet weak var lbSubtitulo: UILabel!
     @IBOutlet weak var uiImagen: UIImageView!
     @IBOutlet weak var btSiguiente: UIButton!
     @IBOutlet weak var btnPlay: UIButton!
     
-   var intT = 0
+    var indexToTuto = 1;
+    var intT = 0
     var strCurrentLetra = "a"
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Tutorial"
+        title = GameController.seccion[indexToTuto]
+        lbTittulo.text = GameController.seccion[indexToTuto]
         // Do any additional setup after loading the view.
         
-        uiImagen.image = GameController.tutoABC[intT].imgImage
-        lbRespuesta.text = GameController.tutoABC[intT].strText
+        lbRespuesta.text = GameController.tutos[indexToTuto][intT].strText
+        
+        if (GameController.tutos[indexToTuto][intT].isVideo){
+            btnPlay.isHidden = false
+            strCurrentLetra = GameController.tutos[indexToTuto][intT].getComplteURL()
+            playVideo(strURL: GameController.tutos[indexToTuto][intT].getComplteURL())
+        }else{
+            uiImagen.image = GameController.tutos[indexToTuto][intT].getImage()
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -40,18 +48,22 @@ class ViewControllerTutorialess: UIViewController {
     @IBAction func btSiguiente(_ sender: UIButton) {
         
         
-        if ( GameController.tutoABC.count > intT + 1)
+        if ( GameController.tutos[indexToTuto].count > intT + 1)
         {
-             btnPlay.isHidden = true
+            btnPlay.isHidden = true
             intT = intT + 1
-            uiImagen.image = GameController.tutoABC[intT].imgImage
-            lbRespuesta.text = GameController.tutoABC[intT].strText
+            lbRespuesta.text = GameController.tutos[indexToTuto][intT].strText
             
-            if (GameController.tutoABC[intT].isVideo){
-                 btnPlay.isHidden = false
-                strCurrentLetra = GameController.tutoABC[intT].urlResource
-                playVideo(strLetra: GameController.tutoABC[intT].urlResource)
+            if (GameController.tutos[indexToTuto][intT].isVideo){
+                btnPlay.isHidden = false
+                strCurrentLetra = GameController.tutos[indexToTuto][intT].getComplteURL()
+                playVideo(strURL: GameController.tutos[indexToTuto][intT].getComplteURL())
+            }else{
+            uiImagen.image = GameController.tutos[indexToTuto][intT].getImage()
             }
+           
+            
+        
         }
     }
     
@@ -61,28 +73,26 @@ class ViewControllerTutorialess: UIViewController {
         {
              btnPlay.isHidden = true
             intT = intT - 1
-            uiImagen.image = GameController.tutoABC[intT].imgImage
-            lbRespuesta.text = GameController.tutoABC[intT].strText
+            lbRespuesta.text = GameController.tutos[indexToTuto][intT].strText
             
-            if (GameController.tutoABC[intT].isVideo){
+            if (GameController.tutos[indexToTuto][intT].isVideo){
                 btnPlay.isHidden = false
-                strCurrentLetra = GameController.tutoABC[intT].urlResource
-                playVideo(strLetra: GameController.tutoABC[intT].urlResource)
+                strCurrentLetra = GameController.tutos[indexToTuto][intT].getComplteURL()
+                playVideo(strURL: GameController.tutos[indexToTuto][intT].getComplteURL())
+            }else{
+                uiImagen.image = GameController.tutos[indexToTuto][intT].getImage()
             }
         }
     }
     
     
     @IBAction func play(_ sender: Any) {
-        playVideo(strLetra: strCurrentLetra)
+        playVideo(strURL: strCurrentLetra)
     }
     
-    private func playVideo( strLetra : String) {
-        guard let path = Bundle.main.path(forResource: strLetra, ofType:"mp4") else {
-            debugPrint("video.m4v not found")
-            return
-        }
-        let player = AVPlayer(url: URL(fileURLWithPath: path))
+    private func playVideo( strURL : String) {
+        
+        let player = AVPlayer(url: URL(string: strURL)! )
         let playerController = AVPlayerViewController()
         playerController.player = player
         present(playerController, animated: true) {

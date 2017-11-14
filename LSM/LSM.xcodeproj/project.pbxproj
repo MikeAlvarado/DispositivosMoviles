@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360116A41FBB993F00BADC58 /* Main iPhone 8.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360116941FBB993D00BADC58 /* Main iPhone 8.storyboard */; };
+		360116A51FBB993F00BADC58 /* Main iPhone SE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360116961FBB993D00BADC58 /* Main iPhone SE.storyboard */; };
+		360116A61FBB993F00BADC58 /* Main iPad Pro 12.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360116981FBB993E00BADC58 /* Main iPad Pro 12.storyboard */; };
+		360116A71FBB993F00BADC58 /* Main iPhone X.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3601169A1FBB993E00BADC58 /* Main iPhone X.storyboard */; };
+		360116A81FBB993F00BADC58 /* Main iPhone 8 Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3601169C1FBB993E00BADC58 /* Main iPhone 8 Plus.storyboard */; };
+		360116A91FBB993F00BADC58 /* Main iPhone 4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3601169E1FBB993E00BADC58 /* Main iPhone 4.storyboard */; };
+		360116AA1FBB993F00BADC58 /* Main iPad Pro 10.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360116A01FBB993E00BADC58 /* Main iPad Pro 10.storyboard */; };
+		360116AB1FBB993F00BADC58 /* Main iPad Pro 9.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360116A21FBB993E00BADC58 /* Main iPad Pro 9.storyboard */; };
 		369DF9541F9D512500039A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DF9531F9D512500039A7D /* AppDelegate.swift */; };
 		369DF9561F9D512500039A7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DF9551F9D512500039A7D /* ViewController.swift */; };
 		369DF9591F9D512500039A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369DF9571F9D512500039A7D /* Main.storyboard */; };
@@ -15,6 +23,14 @@
 		369DF9691F9D512500039A7D /* LSMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DF9681F9D512500039A7D /* LSMTests.swift */; };
 		369DF9741F9D512500039A7D /* LSMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DF9731F9D512500039A7D /* LSMUITests.swift */; };
 		36A7969C1F9D962000606664 /* LSM_Abecedario in Resources */ = {isa = PBXBuildFile; fileRef = 36A7969B1F9D962000606664 /* LSM_Abecedario */; };
+		36A9FA971FBAC2DD003AB66E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9FA8A1FBAC2BC003AB66E /* Alamofire.framework */; };
+		36A9FA981FBAC2DD003AB66E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9FA8A1FBAC2BC003AB66E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36A9FAC11FBAC640003AB66E /* Cloudinary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9FABE1FBAC62C003AB66E /* Cloudinary.framework */; };
+		36A9FAC21FBAC640003AB66E /* Cloudinary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9FABE1FBAC62C003AB66E /* Cloudinary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36A9FAC61FBAD225003AB66E /* Tutoriales.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36A9FAC51FBAD225003AB66E /* Tutoriales.plist */; };
+		36A9FAC81FBB436E003AB66E /* ViewControllerGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9FAC71FBB436E003AB66E /* ViewControllerGames.swift */; };
+		36A9FACC1FBB4C5E003AB66E /* Ejercicios.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36A9FACB1FBB4C5E003AB66E /* Ejercicios.plist */; };
+		36A9FACE1FBB878D003AB66E /* User.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36A9FACD1FBB878D003AB66E /* User.plist */; };
 		36C5A93D1F9D748300AF4CC7 /* Nivel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C5A9381F9D748300AF4CC7 /* Nivel.swift */; };
 		36C5A93E1F9D748300AF4CC7 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C5A9391F9D748300AF4CC7 /* Tutorial.swift */; };
 		36C5A93F1F9D748300AF4CC7 /* Juego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C5A93A1F9D748300AF4CC7 /* Juego.swift */; };
@@ -41,9 +57,109 @@
 			remoteGlobalIDString = 369DF94F1F9D512500039A7D;
 			remoteInfo = LSM;
 		};
+		36A9FA891FBAC2BC003AB66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A9FA7E1FBAC2BC003AB66E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		36A9FA8B1FBAC2BC003AB66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A9FA7E1FBAC2BC003AB66E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		36A9FA8D1FBAC2BC003AB66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A9FA7E1FBAC2BC003AB66E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		36A9FA8F1FBAC2BC003AB66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A9FA7E1FBAC2BC003AB66E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		36A9FA911FBAC2BC003AB66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A9FA7E1FBAC2BC003AB66E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		36A9FA931FBAC2BC003AB66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A9FA7E1FBAC2BC003AB66E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		36A9FA951FBAC2BC003AB66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A9FA7E1FBAC2BC003AB66E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		36A9FA991FBAC2DD003AB66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A9FA7E1FBAC2BC003AB66E /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		36A9FABD1FBAC62C003AB66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A9FAB71FBAC62C003AB66E /* Cloudinary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 369FB3461C79D360003E81B6;
+			remoteInfo = Cloudinary;
+		};
+		36A9FABF1FBAC62C003AB66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A9FAB71FBAC62C003AB66E /* Cloudinary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3696FBF11C8C6A3D00DE9568;
+			remoteInfo = CloudinaryTests;
+		};
+		36A9FAC31FBAC640003AB66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A9FAB71FBAC62C003AB66E /* Cloudinary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 369FB3451C79D360003E81B6;
+			remoteInfo = Cloudinary;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		36A9FA9B1FBAC2DD003AB66E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				36A9FAC21FBAC640003AB66E /* Cloudinary.framework in Embed Frameworks */,
+				36A9FA981FBAC2DD003AB66E /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		360116951FBB993D00BADC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main iPhone 8.storyboard"; sourceTree = "<group>"; };
+		360116971FBB993D00BADC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main iPhone SE.storyboard"; sourceTree = "<group>"; };
+		360116991FBB993E00BADC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main iPad Pro 12.storyboard"; sourceTree = "<group>"; };
+		3601169B1FBB993E00BADC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main iPhone X.storyboard"; sourceTree = "<group>"; };
+		3601169D1FBB993E00BADC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main iPhone 8 Plus.storyboard"; sourceTree = "<group>"; };
+		3601169F1FBB993E00BADC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main iPhone 4.storyboard"; sourceTree = "<group>"; };
+		360116A11FBB993E00BADC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main iPad Pro 10.storyboard"; sourceTree = "<group>"; };
+		360116A31FBB993E00BADC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main iPad Pro 9.storyboard"; sourceTree = "<group>"; };
 		369DF9501F9D512500039A7D /* LSM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		369DF9531F9D512500039A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		369DF9551F9D512500039A7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,12 +174,18 @@
 		369DF9731F9D512500039A7D /* LSMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSMUITests.swift; sourceTree = "<group>"; };
 		369DF9751F9D512500039A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36A7969B1F9D962000606664 /* LSM_Abecedario */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LSM_Abecedario; sourceTree = "<group>"; };
+		36A9FA7E1FBAC2BC003AB66E /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		36A9FAB71FBAC62C003AB66E /* Cloudinary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cloudinary.xcodeproj; path = Cloudinary/Cloudinary.xcodeproj; sourceTree = "<group>"; };
+		36A9FAC51FBAD225003AB66E /* Tutoriales.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Tutoriales.plist; path = LSM/Tutoriales.plist; sourceTree = SOURCE_ROOT; };
+		36A9FAC71FBB436E003AB66E /* ViewControllerGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGames.swift; sourceTree = "<group>"; };
+		36A9FACB1FBB4C5E003AB66E /* Ejercicios.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Ejercicios.plist; sourceTree = "<group>"; };
+		36A9FACD1FBB878D003AB66E /* User.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = User.plist; sourceTree = "<group>"; };
 		36C5A9381F9D748300AF4CC7 /* Nivel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nivel.swift; sourceTree = "<group>"; };
 		36C5A9391F9D748300AF4CC7 /* Tutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		36C5A93A1F9D748300AF4CC7 /* Juego.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Juego.swift; sourceTree = "<group>"; };
 		36C5A93B1F9D748300AF4CC7 /* Ejercicio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ejercicio.swift; sourceTree = "<group>"; };
 		36C5A93C1F9D748300AF4CC7 /* Jugador.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jugador.swift; sourceTree = "<group>"; };
-		36C5A9421F9D753F00AF4CC7 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		36C5A9421F9D753F00AF4CC7 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameController.swift; path = LSM/Game/GameController.swift; sourceTree = SOURCE_ROOT; };
 		FD72107B1F9D6EAC00236984 /* ViewControllerNiveles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerNiveles.swift; sourceTree = "<group>"; };
 		FD72107D1F9D7AF400236984 /* ViewControllerCambiaNombre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCambiaNombre.swift; sourceTree = "<group>"; };
 		FD9B8FB31F9D927C00CDE93F /* ViewControllerTutorialess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTutorialess.swift; sourceTree = "<group>"; };
@@ -74,6 +196,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A9FAC11FBAC640003AB66E /* Cloudinary.framework in Frameworks */,
+				36A9FA971FBAC2DD003AB66E /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +221,8 @@
 		369DF9471F9D512500039A7D = {
 			isa = PBXGroup;
 			children = (
+				36A9FAB71FBAC62C003AB66E /* Cloudinary.xcodeproj */,
+				36A9FA7E1FBAC2BC003AB66E /* Alamofire.xcodeproj */,
 				36A7969B1F9D962000606664 /* LSM_Abecedario */,
 				369DF9521F9D512500039A7D /* LSM */,
 				369DF9671F9D512500039A7D /* LSMTests */,
@@ -118,6 +244,14 @@
 		369DF9521F9D512500039A7D /* LSM */ = {
 			isa = PBXGroup;
 			children = (
+				360116A21FBB993E00BADC58 /* Main iPad Pro 9.storyboard */,
+				360116A01FBB993E00BADC58 /* Main iPad Pro 10.storyboard */,
+				360116981FBB993E00BADC58 /* Main iPad Pro 12.storyboard */,
+				3601169E1FBB993E00BADC58 /* Main iPhone 4.storyboard */,
+				3601169C1FBB993E00BADC58 /* Main iPhone 8 Plus.storyboard */,
+				360116941FBB993D00BADC58 /* Main iPhone 8.storyboard */,
+				360116961FBB993D00BADC58 /* Main iPhone SE.storyboard */,
+				3601169A1FBB993E00BADC58 /* Main iPhone X.storyboard */,
 				369DF9811F9D515E00039A7D /* Game */,
 				369DF9531F9D512500039A7D /* AppDelegate.swift */,
 				369DF9551F9D512500039A7D /* ViewController.swift */,
@@ -128,6 +262,10 @@
 				369DF95A1F9D512500039A7D /* Assets.xcassets */,
 				369DF95C1F9D512500039A7D /* LaunchScreen.storyboard */,
 				369DF95F1F9D512500039A7D /* Info.plist */,
+				36A9FAC51FBAD225003AB66E /* Tutoriales.plist */,
+				36A9FAC71FBB436E003AB66E /* ViewControllerGames.swift */,
+				36A9FACB1FBB4C5E003AB66E /* Ejercicios.plist */,
+				36A9FACD1FBB878D003AB66E /* User.plist */,
 			);
 			path = LSM;
 			sourceTree = "<group>";
@@ -163,6 +301,29 @@
 			path = Game;
 			sourceTree = "<group>";
 		};
+		36A9FA7F1FBAC2BC003AB66E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36A9FA8A1FBAC2BC003AB66E /* Alamofire.framework */,
+				36A9FA8C1FBAC2BC003AB66E /* Alamofire iOS Tests.xctest */,
+				36A9FA8E1FBAC2BC003AB66E /* Alamofire.framework */,
+				36A9FA901FBAC2BC003AB66E /* Alamofire macOS Tests.xctest */,
+				36A9FA921FBAC2BC003AB66E /* Alamofire.framework */,
+				36A9FA941FBAC2BC003AB66E /* Alamofire tvOS Tests.xctest */,
+				36A9FA961FBAC2BC003AB66E /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36A9FAB81FBAC62C003AB66E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36A9FABE1FBAC62C003AB66E /* Cloudinary.framework */,
+				36A9FAC01FBAC62C003AB66E /* CloudinaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,10 +334,13 @@
 				369DF94C1F9D512500039A7D /* Sources */,
 				369DF94D1F9D512500039A7D /* Frameworks */,
 				369DF94E1F9D512500039A7D /* Resources */,
+				36A9FA9B1FBAC2DD003AB66E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				36A9FA9A1FBAC2DD003AB66E /* PBXTargetDependency */,
+				36A9FAC41FBAC640003AB66E /* PBXTargetDependency */,
 			);
 			name = LSM;
 			productName = LSM;
@@ -256,6 +420,16 @@
 			mainGroup = 369DF9471F9D512500039A7D;
 			productRefGroup = 369DF9511F9D512500039A7D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 36A9FA7F1FBAC2BC003AB66E /* Products */;
+					ProjectRef = 36A9FA7E1FBAC2BC003AB66E /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 36A9FAB81FBAC62C003AB66E /* Products */;
+					ProjectRef = 36A9FAB71FBAC62C003AB66E /* Cloudinary.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				369DF94F1F9D512500039A7D /* LSM */,
@@ -265,15 +439,92 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		36A9FA8A1FBAC2BC003AB66E /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 36A9FA891FBAC2BC003AB66E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36A9FA8C1FBAC2BC003AB66E /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 36A9FA8B1FBAC2BC003AB66E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36A9FA8E1FBAC2BC003AB66E /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 36A9FA8D1FBAC2BC003AB66E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36A9FA901FBAC2BC003AB66E /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 36A9FA8F1FBAC2BC003AB66E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36A9FA921FBAC2BC003AB66E /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 36A9FA911FBAC2BC003AB66E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36A9FA941FBAC2BC003AB66E /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 36A9FA931FBAC2BC003AB66E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36A9FA961FBAC2BC003AB66E /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 36A9FA951FBAC2BC003AB66E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36A9FABE1FBAC62C003AB66E /* Cloudinary.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cloudinary.framework;
+			remoteRef = 36A9FABD1FBAC62C003AB66E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36A9FAC01FBAC62C003AB66E /* CloudinaryTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CloudinaryTests.xctest;
+			remoteRef = 36A9FABF1FBAC62C003AB66E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		369DF94E1F9D512500039A7D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A9FACC1FBB4C5E003AB66E /* Ejercicios.plist in Resources */,
 				36A7969C1F9D962000606664 /* LSM_Abecedario in Resources */,
 				369DF95E1F9D512500039A7D /* LaunchScreen.storyboard in Resources */,
+				36A9FAC61FBAD225003AB66E /* Tutoriales.plist in Resources */,
+				360116A51FBB993F00BADC58 /* Main iPhone SE.storyboard in Resources */,
 				369DF95B1F9D512500039A7D /* Assets.xcassets in Resources */,
+				360116AB1FBB993F00BADC58 /* Main iPad Pro 9.storyboard in Resources */,
 				369DF9591F9D512500039A7D /* Main.storyboard in Resources */,
+				360116A61FBB993F00BADC58 /* Main iPad Pro 12.storyboard in Resources */,
+				360116A81FBB993F00BADC58 /* Main iPhone 8 Plus.storyboard in Resources */,
+				36A9FACE1FBB878D003AB66E /* User.plist in Resources */,
+				360116A91FBB993F00BADC58 /* Main iPhone 4.storyboard in Resources */,
+				360116AA1FBB993F00BADC58 /* Main iPad Pro 10.storyboard in Resources */,
+				360116A71FBB993F00BADC58 /* Main iPhone X.storyboard in Resources */,
+				360116A41FBB993F00BADC58 /* Main iPhone 8.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +549,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A9FAC81FBB436E003AB66E /* ViewControllerGames.swift in Sources */,
 				36C5A93D1F9D748300AF4CC7 /* Nivel.swift in Sources */,
 				369DF9561F9D512500039A7D /* ViewController.swift in Sources */,
 				36C5A93F1F9D748300AF4CC7 /* Juego.swift in Sources */,
@@ -341,9 +593,83 @@
 			target = 369DF94F1F9D512500039A7D /* LSM */;
 			targetProxy = 369DF9701F9D512500039A7D /* PBXContainerItemProxy */;
 		};
+		36A9FA9A1FBAC2DD003AB66E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 36A9FA991FBAC2DD003AB66E /* PBXContainerItemProxy */;
+		};
+		36A9FAC41FBAC640003AB66E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cloudinary;
+			targetProxy = 36A9FAC31FBAC640003AB66E /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		360116941FBB993D00BADC58 /* Main iPhone 8.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				360116951FBB993D00BADC58 /* Base */,
+			);
+			name = "Main iPhone 8.storyboard";
+			sourceTree = "<group>";
+		};
+		360116961FBB993D00BADC58 /* Main iPhone SE.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				360116971FBB993D00BADC58 /* Base */,
+			);
+			name = "Main iPhone SE.storyboard";
+			sourceTree = "<group>";
+		};
+		360116981FBB993E00BADC58 /* Main iPad Pro 12.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				360116991FBB993E00BADC58 /* Base */,
+			);
+			name = "Main iPad Pro 12.storyboard";
+			sourceTree = "<group>";
+		};
+		3601169A1FBB993E00BADC58 /* Main iPhone X.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3601169B1FBB993E00BADC58 /* Base */,
+			);
+			name = "Main iPhone X.storyboard";
+			sourceTree = "<group>";
+		};
+		3601169C1FBB993E00BADC58 /* Main iPhone 8 Plus.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3601169D1FBB993E00BADC58 /* Base */,
+			);
+			name = "Main iPhone 8 Plus.storyboard";
+			sourceTree = "<group>";
+		};
+		3601169E1FBB993E00BADC58 /* Main iPhone 4.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3601169F1FBB993E00BADC58 /* Base */,
+			);
+			name = "Main iPhone 4.storyboard";
+			sourceTree = "<group>";
+		};
+		360116A01FBB993E00BADC58 /* Main iPad Pro 10.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				360116A11FBB993E00BADC58 /* Base */,
+			);
+			name = "Main iPad Pro 10.storyboard";
+			sourceTree = "<group>";
+		};
+		360116A21FBB993E00BADC58 /* Main iPad Pro 9.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				360116A31FBB993E00BADC58 /* Base */,
+			);
+			name = "Main iPad Pro 9.storyboard";
+			sourceTree = "<group>";
+		};
 		369DF9571F9D512500039A7D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -473,12 +799,13 @@
 		369DF9791F9D512500039A7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68HHJD6F25;
 				INFOPLIST_FILE = LSM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jolum.LSM;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.itesmalumnos.HablaEnSenas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,12 +815,13 @@
 		369DF97A1F9D512500039A7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68HHJD6F25;
 				INFOPLIST_FILE = LSM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jolum.LSM;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.itesmalumnos.HablaEnSenas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

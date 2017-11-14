@@ -1,0 +1,3 @@
+[submodule "LSM/Alamofire"]
+	path = LSM/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
