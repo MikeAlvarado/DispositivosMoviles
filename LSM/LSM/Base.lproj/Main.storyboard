@@ -387,7 +387,7 @@ distribución	y	uso	con	fines	de	lucro.</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A39-WD-Q3E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="568" y="211"/>
+            <point key="canvasLocation" x="446" y="209"/>
         </scene>
         <!--View Controller Games-->
         <scene sceneID="nBM-IX-S1H">

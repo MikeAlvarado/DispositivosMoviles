@@ -27,6 +27,14 @@ class ViewControllerCambiaNombre: UIViewController {
         // Do any additional setup after loading the view.
         
         tfNombre.text = GameController.juego.jugador.strNombre
+        
+        //Looks for single or multiple taps.
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        
+        //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
+        //tap.cancelsTouchesInView = false
+        
+        view.addGestureRecognizer(tap)
     }
 
     override func didReceiveMemoryWarning() {
@@ -49,5 +57,9 @@ class ViewControllerCambiaNombre: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @objc func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
 
 }

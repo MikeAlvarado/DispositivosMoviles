@@ -30,10 +30,11 @@ class ViewControllerNiveles: UIViewController {
         
         if (GameController.juego.boolNewGame){
             let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-            let nextViewController = storyBoard.instantiateViewController(withIdentifier: "name") as! ViewController
+            let nextViewController =
+                self.storyboard?.instantiateViewController(withIdentifier: "name") as! ViewController
             self.navigationController?.pushViewController(nextViewController, animated: true)
         }
-        
+         
         loadData()
     }
 
