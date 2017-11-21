@@ -12,9 +12,14 @@ class ViewControllerCambiaNombre: UIViewController {
 
     @IBOutlet weak var tfNombre: UITextField!
     @IBOutlet weak var btContinuar: UIButton!
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var vista: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        scrollView.contentSize = vista.frame.size
+
         
        /* let colorTop =  UIColor(red: 255.0/255.0, green: 163.0/255.0, blue: 26.0/255.0, alpha: 1.0).cgColor
         let colorBottom = UIColor(red: 255.0/255.0, green: 94.0/255.0, blue: 58.0/255.0, alpha: 1.0).cgColor
