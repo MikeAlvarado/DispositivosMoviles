@@ -806,7 +806,7 @@
 				INFOPLIST_FILE = LSM/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.itesmalumnos.HablaEnSenas;
+				PRODUCT_BUNDLE_IDENTIFIER = jolum.LSM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -823,7 +823,7 @@
 				INFOPLIST_FILE = LSM/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.itesmalumnos.HablaEnSenas;
+				PRODUCT_BUNDLE_IDENTIFIER = jolum.LSM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
