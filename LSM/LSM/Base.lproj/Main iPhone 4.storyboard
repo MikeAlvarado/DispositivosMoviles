@@ -122,14 +122,21 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbv-az-K3W">
                                                 <rect key="frame" x="8" y="0.0" width="261" height="246"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">"Habla en señas" ha sido desarrollado por estudiantes del Tecnológico de Monterrey durante el semestre Agosto-Diciembre de 2017, como parte del curso Desarrollo de Aplicaciones para Dispositivos Móviles y asesorados por la maestra Yolanda Martínez Treviño. 
+                                                <mutableString key="text">"Habla en señas" ha sido desarrollado por estudiantes del Tecnológico de Monterrey durante el semestre Agosto-Diciembre de 2017, como parte del curso Desarrollo de Aplicaciones para Dispositivos Móviles y asesorados por la maestra Yolanda Martínez Treviño. 
 
 Desarrolladores:
 Jorge Luis Mendez Montoya
 Fernando Javier Pompa Guajardo
 Miguel Angel Alvarado López
 
-"Habla en señas" se distribuye como está de manera gratuita y se prohíbe su distribución y uso con fines de lucro.</string>
+Instructora de LSM:
+Edyth Esthela de la Rosa Lozoya
+ 
+Fotografía y video:
+Rebeca Patricia Fuentes García
+
+
+"Habla en señas" se distribuye como está de manera gratuita y se prohíbe su distribución y uso con fines de lucro.</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
