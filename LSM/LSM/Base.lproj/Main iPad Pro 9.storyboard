@@ -113,22 +113,16 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="70" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZV-qa-z0F">
-<<<<<<< HEAD
-                                                <rect key="frame" x="8" y="0.0" width="4008" height="847"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="572" height="847"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">"Habla en señas" ha sido desarrollado por estudiantes del Tecnológico de Monterrey durante el semestre Agosto-Diciembre de 2017, como parte del curso Desarrollo de Aplicaciones para Dispositivos Móviles y asesorados por la maestra Yolanda Martínez Treviño. 
-=======
-                                                <rect key="frame" x="8" y="0.0" width="555" height="847"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">"Habla en señas" ha sido desarrollado por estudiantes del Tecnológico de Monterrey durante el semestre Agosto-Diciembre de 2017, como parte del curso Desarrollo de Aplicaciones para Dispositivos Móviles y asesorados por la maestra Yolanda Martínez Treviño. 
->>>>>>> 8f6537be928bac403c519333b6f46ded3be4af3a
+                                                <mutableString key="text">"Habla en señas" ha sido desarrollado por estudiantes del Tecnológico de Monterrey durante el semestre Agosto-Diciembre de 2017, como parte del curso Desarrollo de Aplicaciones para Dispositivos Móviles y asesorados por la maestra Yolanda Martínez Treviño.
 
 Desarrolladores:
 Jorge Luis Mendez Montoya
 Fernando Javier Pompa Guajardo
 Miguel Angel Alvarado López
 
-<<<<<<< HEAD
+
 Instructora de LSM:
 Edyth Esthela de la Rosa Lozoya
  
@@ -137,9 +131,6 @@ Rebeca Patricia Fuentes García
 
 
 "Habla en señas" se distribuye como está de manera gratuita y se prohíbe su distribución y uso con fines de lucro.</mutableString>
-=======
-"Habla en señas" se distribuye como está de manera gratuita y se prohíbe su distribución y uso con fines de lucro.</string>
->>>>>>> 8f6537be928bac403c519333b6f46ded3be4af3a
                                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>

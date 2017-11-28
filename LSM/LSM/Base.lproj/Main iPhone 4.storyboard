@@ -120,31 +120,23 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbv-az-K3W">
-                                                <rect key="frame" x="8" y="0.0" width="261" height="246"/>
+                                                <rect key="frame" x="8" y="0.0" width="261" height="162"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<<<<<<< HEAD
-                                                <mutableString key="text">"Habla en señas" ha sido desarrollado por estudiantes del Tecnológico de Monterrey durante el semestre Agosto-Diciembre de 2017, como parte del curso Desarrollo de Aplicaciones para Dispositivos Móviles y asesorados por la maestra Yolanda Martínez Treviño. 
-=======
                                                 <string key="text">"Habla en señas" ha sido desarrollado por estudiantes del Tecnológico de Monterrey durante el semestre Agosto-Diciembre de 2017, como parte del curso Desarrollo de Aplicaciones para Dispositivos Móviles y asesorados por la maestra Yolanda Martínez Treviño. 
->>>>>>> 8f6537be928bac403c519333b6f46ded3be4af3a
+
 
 Desarrolladores:
 Jorge Luis Mendez Montoya
 Fernando Javier Pompa Guajardo
 Miguel Angel Alvarado López
 
-<<<<<<< HEAD
 Instructora de LSM:
 Edyth Esthela de la Rosa Lozoya
  
 Fotografía y video:
 Rebeca Patricia Fuentes García
 
-
-"Habla en señas" se distribuye como está de manera gratuita y se prohíbe su distribución y uso con fines de lucro.</mutableString>
-=======
 "Habla en señas" se distribuye como está de manera gratuita y se prohíbe su distribución y uso con fines de lucro.</string>
->>>>>>> 8f6537be928bac403c519333b6f46ded3be4af3a
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
